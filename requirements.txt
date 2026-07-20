@@ -1,0 +1,6 @@
+# MUGEN Smart Roster Manager - Requirements
+# Python 3.7+ required
+# tkinter is included with standard Python on Windows
+
+# Only external dependency from original mugen-tools
+chardet>=3.0.0
