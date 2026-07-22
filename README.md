@@ -1,12 +1,12 @@
-# ⚡ MUGEN Smart Roster Manager
+# MUGEN Smart Roster Manager
 
-A dynamic pre-launch roster tool for **MUGEN 1.1** that eliminates long load times by letting you hand-pick exactly which characters and stages get written into `select.def` before each session — then restores your original file when you're done.
+A dynamic pre-launch roster tool for **MUGEN 1.1** that eliminates long load times by letting you hand-pick exactly which characters and stages get written into `select.def` before each session, then restores your original file when you're done.
 
 ---
 
 ## The Problem
 
-MUGEN doesn't load characters on demand. At startup it parses `select.def` and prepares **every single character** referenced in it — sprites, animations, sounds, and state tables — even if you only plan to play two fights. With large rosters this can mean minutes of loading time every launch.
+MUGEN doesn't load characters on demand. At startup it parses `select.def` and prepares **every single character** referenced in it even if you only plan to play two fights. With large rosters this can mean minutes of loading time every launch.
 
 ## The Solution
 
