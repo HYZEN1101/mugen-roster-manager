@@ -1,0 +1,1625 @@
+{
+  "characters": [
+    {
+      "name": "Adawn",
+      "displayname": "Adawn",
+      "author": "Apple, Stara, \udcbd\udcf0\udcc9\udcdf\udccc\udcec\udcd7\udcf0\"; Stara---\udcce\udcd2\udcd2\udcb2\udcc0\udcb3\udca3\udca1\udca3\udca1!\udcb8\udcfc\udcb5\udce3\udcb6\udcab\udcce\udcf7www\udca3\udca9",
+      "folder": "Adawn-CKOFM-V3.5-Beta",
+      "def_path": "Adawn-CKOFM-V3.5-Beta/Adawn-CKOFM-V3.5-Beta.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Adawn-CKOFM-V3.5-Beta\\Adawn-CKOFM-V3.5-Beta.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Adawn",
+      "displayname": "Adawn",
+      "author": "Jin,Apple",
+      "folder": "Adawn1",
+      "def_path": "Adawn1/Adawn1.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Adawn1\\Adawn1.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "AH",
+      "displayname": "AH",
+      "author": "Sikoli",
+      "folder": "AH",
+      "def_path": "AH_mugen1_0/AH/AH.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\AH_mugen1_0\\AH\\AH.def",
+      "group": "AH_mugen1_0"
+    },
+    {
+      "name": "AHv2",
+      "displayname": "AH",
+      "author": "Sikoli",
+      "folder": "AH",
+      "def_path": "AHv2/AH/AH.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\AHv2\\AH\\AH.def",
+      "group": "AHv2"
+    },
+    {
+      "name": "Alice-BLOOD(MH)",
+      "displayname": "Alice BLOOD",
+      "author": "Maiko's Heaven",
+      "folder": "Alice-BLOOD",
+      "def_path": "Alice-BLOOD/Alice-BLOOD-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Alice-BLOOD\\Alice-BLOOD-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Alioth",
+      "displayname": "Alioth",
+      "author": "Wolf",
+      "folder": "Alioth",
+      "def_path": "Alioth/Alioth.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Alioth\\Alioth.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "AngusPurple-CKOFM",
+      "displayname": "AngusPurple",
+      "author": "\udcbd\udcf0\udcc9\udcdf\udccc\udcec\udcd7\udcf0",
+      "folder": "AngusPurple-CKOFM",
+      "def_path": "AngusPurple-CKOFM/AngusPurple-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\AngusPurple-CKOFM\\AngusPurple-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Anubis-HY",
+      "displayname": "Anubis",
+      "author": "HYZEN",
+      "folder": "Dianus_AI",
+      "def_path": "HYZEN/Dianus_AI/Dianus_AI.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Dianus_AI\\Dianus_AI.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Anubis-HY",
+      "displayname": "Anubis",
+      "author": "HYZEN",
+      "folder": "02-07-2025 12-18-49 am",
+      "def_path": "HYZEN/Dianus_AI/backup/02-07-2025 12-18-49 am/Dianus_AI.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Dianus_AI\\backup\\02-07-2025 12-18-49 am\\Dianus_AI.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Aprille",
+      "displayname": "Aprille",
+      "author": "Ximerace",
+      "folder": "Aprille-CKOFM",
+      "def_path": "Aprille-CKOFM/Aprille-CKOFM/Aprille-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Aprille-CKOFM\\Aprille-CKOFM\\Aprille-CKOFM.def",
+      "group": "Aprille-CKOFM"
+    },
+    {
+      "name": "Ash Crimson",
+      "displayname": "Ash-HY",
+      "author": "HYZEN",
+      "folder": "Ash Crimson-KOFM",
+      "def_path": "HYZEN/Ash Crimson-KOFM/Ash Crimson-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Ash Crimson-KOFM\\Ash Crimson-KOFM.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Atlas",
+      "displayname": "Atlas",
+      "author": "Player-One & NexT One",
+      "folder": "Atlas",
+      "def_path": "Atlas/Atlas.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Atlas\\Atlas.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Axion",
+      "displayname": "Axion",
+      "author": "HYZEN",
+      "folder": "Yamata No Orochi",
+      "def_path": "HYZEN/Yamata No Orochi/Yamata No Orochi/Yamata No Orochi.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Yamata No Orochi\\Yamata No Orochi\\Yamata No Orochi.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Axis",
+      "displayname": "Axis",
+      "author": "\udce6\udcb5\udc85\udce7\udc82\udc8e",
+      "folder": "Axis",
+      "def_path": "Axis/Axis.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Axis\\Axis.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Azael",
+      "displayname": "Azael",
+      "author": "HYZEN",
+      "folder": "azel",
+      "def_path": "HYZEN/azel/azel/azel.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\azel\\azel\\azel.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Azael",
+      "displayname": "Azael",
+      "author": "HYZEN",
+      "folder": "05-04-2025 5-23-13 pm",
+      "def_path": "HYZEN/azel/azel/backup/05-04-2025 5-23-13 pm/azel.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\azel\\azel\\backup\\05-04-2025 5-23-13 pm\\azel.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Azurite",
+      "displayname": "Azurite-Layn",
+      "author": "ReV_DeLtA",
+      "folder": "Azurite v.2.1",
+      "def_path": "HYZEN/Azurite v.2.1 (2)/Azurite v.2.1/Azurite.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Azurite v.2.1 (2)\\Azurite v.2.1\\Azurite.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "BENTU IORI",
+      "displayname": "Iori YaGami",
+      "author": "BENTU",
+      "folder": "Iori Yagami - BenTu",
+      "def_path": "Iori Yagami - BenTu/Iori Yagami - BenTu.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Iori Yagami - BenTu\\Iori Yagami - BenTu.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Bio-Element",
+      "displayname": "Bio-Element",
+      "author": "sba & ex1",
+      "folder": "Bio-Element",
+      "def_path": "Bio-Element/Bio-Element/Bio-Element.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Bio-Element\\Bio-Element\\Bio-Element.def",
+      "group": "Bio-Element"
+    },
+    {
+      "name": "Break hidden Flame Soul Elke",
+      "displayname": "Elke\";\udce8\udc89\udcbe\udce5\udcb0\udc94\udce5\udc85\udc8b",
+      "author": "\udce5\udca4\udc9c\udce5\udcbf\udc86\udce9\udc9b\udca8\udce8\udc90\udcbd",
+      "folder": "Elke-CKOFM",
+      "def_path": "Elke-CKOFM/Elke-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Elke-CKOFM\\Elke-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Buer",
+      "displayname": "Buer",
+      "author": "\udce7\udca2\udc8e\udce6\udca2\udca6\udce4\udcb8\udcb6\udce8\udc8f\udc8c",
+      "folder": "Buer",
+      "def_path": "Buer/Buer.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Buer\\Buer.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "C.Kyo XV",
+      "displayname": "C.Kyo XV",
+      "author": "Sandstorm",
+      "folder": "A.Kyo XV",
+      "def_path": "A.Kyo XV/A.Kyo XV.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\A.Kyo XV\\A.Kyo XV.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "C.Kyo-3",
+      "displayname": "Clone Kyo-3",
+      "author": "YUUHI",
+      "folder": "Clone Kyo-3",
+      "def_path": "Clone Kyo-3/Clone Kyo-3.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Clone Kyo-3\\Clone Kyo-3.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "c_Adel",
+      "displayname": "Clone Adel",
+      "author": "Wolf",
+      "folder": "Clone_Adel",
+      "def_path": "Clone_Adel/Clone_Adel.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Clone_Adel\\Clone_Adel.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Cadio",
+      "displayname": "Cadio",
+      "author": "HELL",
+      "folder": "Cadio-CKOFM",
+      "def_path": "HELL/Cadio-CKOFM/Cadio-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Cadio-CKOFM\\Cadio-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Caprio",
+      "displayname": "Caprio",
+      "author": "RBGarcia",
+      "folder": "CAPRIO",
+      "def_path": "CAPRIO/CAPRIO/CAPRIO.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\CAPRIO\\CAPRIO\\CAPRIO.def",
+      "group": "CAPRIO"
+    },
+    {
+      "name": "Carlin.Blood",
+      "displayname": "Carlin.Blood",
+      "author": "HELL",
+      "folder": "Carlin.Blood-CKOFM",
+      "def_path": "HELL/Carlin.Blood-CKOFM/Carlin.Blood-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Carlin.Blood-CKOFM\\Carlin.Blood-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Chaos",
+      "displayname": "Chaos",
+      "author": "ex1",
+      "folder": "Chaos-CKOFM",
+      "def_path": "Chaos-CKOFM VC0.49/Chaos-CKOFM/Chaos-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Chaos-CKOFM VC0.49\\Chaos-CKOFM\\Chaos-CKOFM.def",
+      "group": "Chaos-CKOFM VC0.49"
+    },
+    {
+      "name": "Chris",
+      "displayname": "OROCHI CHRIS AV",
+      "author": "AVLAR",
+      "folder": "Orochi Chris-AV-KOFM",
+      "def_path": "Orochi_Chris-AV-KOFM/Orochi Chris-AV-KOFM/Orochi Chris-AV-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Orochi_Chris-AV-KOFM\\Orochi Chris-AV-KOFM\\Orochi Chris-AV-KOFM.def",
+      "group": "Orochi_Chris-AV-KOFM"
+    },
+    {
+      "name": "Chun Li-ST",
+      "displayname": "Chunli",
+      "author": "Sandstorm",
+      "folder": "Chunli",
+      "def_path": "Chunli/Chunli.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Chunli\\Chunli.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Cistyra",
+      "displayname": "Cistyra",
+      "author": "app",
+      "folder": "Cistyra-CKOFM",
+      "def_path": "Cistyra-CKOFM/Cistyra-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Cistyra-CKOFM\\Cistyra-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Clone-30",
+      "displayname": "Clone-30",
+      "author": "Kartara",
+      "folder": "Clone-30",
+      "def_path": "Shits and giggles/Clone-30/Clone-30.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Shits and giggles\\Clone-30\\Clone-30.def",
+      "group": "Shits and giggles"
+    },
+    {
+      "name": "Clone-35",
+      "displayname": "Clone-35",
+      "author": "Kartara",
+      "folder": "Clone-35",
+      "def_path": "Shits and giggles/Clone-35/Clone-35.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Shits and giggles\\Clone-35\\Clone-35.def",
+      "group": "Shits and giggles"
+    },
+    {
+      "name": "CloneKyoBlood",
+      "displayname": "C.Kyo Blood",
+      "author": "HELL",
+      "folder": "C.Kyo.Blood-CKOFM",
+      "def_path": "HELL/C.Kyo.Blood-CKOFM/C.Kyo.Blood-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\C.Kyo.Blood-CKOFM\\C.Kyo.Blood-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "CloneYagamiBlood",
+      "displayname": "C.Iori Blood",
+      "author": "HELL",
+      "folder": "C.Iori.Blood-CKOFM",
+      "def_path": "HELL/C.Iori.Blood-CKOFM/C.Iori.Blood-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\C.Iori.Blood-CKOFM\\C.Iori.Blood-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "CX OrochiK",
+      "displayname": "CX Orochi K",
+      "author": "\udcb3\udcbf\udcea\udcd8",
+      "folder": "CX Orochi K-KOFM",
+      "def_path": "CX Orochi K-KOFM/CX Orochi K-KOFM/CX Orochi K-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\CX Orochi K-KOFM\\CX Orochi K-KOFM\\CX Orochi K-KOFM.def",
+      "group": "CX Orochi K-KOFM"
+    },
+    {
+      "name": "Dante",
+      "displayname": "Dante",
+      "author": "Wou",
+      "folder": "ExecutionerDante",
+      "def_path": "HYZEN/ExecutionerDante/Dante_KOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\ExecutionerDante\\Dante_KOF.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Dark God Rugal",
+      "displayname": "Dark God Rugal",
+      "author": "Noel & Opirus & Vegetasan3654 - mugeningan & thesearchman & ptzptz7",
+      "folder": "dgrugalkino",
+      "def_path": "dgrugalkino/dgrugalkino.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\dgrugalkino\\dgrugalkino.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Deimos",
+      "displayname": "Deimos",
+      "author": "HYZEN-Crescendo",
+      "folder": "Deimos",
+      "def_path": "HYZEN/Deimos/deimos.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Deimos\\deimos.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Delirus",
+      "displayname": "Delirus",
+      "author": "EX&&BL",
+      "folder": "Delirus",
+      "def_path": "Delirus/Delirus.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Delirus\\Delirus.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Eater of Souls",
+      "displayname": "Eater of Souls",
+      "author": "HELL",
+      "folder": "Eater of Souls-CKOFM",
+      "def_path": "HELL/Eater of Souls-CKOFM/Eater of Souls-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Eater of Souls-CKOFM\\Eater of Souls-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Element",
+      "displayname": "Element-Kelland",
+      "author": "Kelland",
+      "folder": "Element-Kelland",
+      "def_path": "Element-Kelland (1)/Element-Kelland/Element-Kelland.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Element-Kelland (1)\\Element-Kelland\\Element-Kelland.def",
+      "group": "Element-Kelland (1)"
+    },
+    {
+      "name": "ELEMENT KYO CURRENT",
+      "displayname": "ELEMENT KYO",
+      "author": "AVLAR",
+      "folder": "Element-Kyo",
+      "def_path": "Element-Kyo/Element-Kyo.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Element-Kyo\\Element-Kyo.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "ELEMENT XIII CURRENT",
+      "displayname": "ELEMENT XIII",
+      "author": "AVLAR",
+      "folder": "Final Element XII",
+      "def_path": "Final Element XII/Final Element XII.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Final Element XII\\Final Element XII.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Ember-Eputh",
+      "displayname": "Ember-Eputh",
+      "author": "apps",
+      "folder": "Ember-Eputh-CKOFM",
+      "def_path": "Ember-Eputh-CKOFM/Ember Eputh-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Ember-Eputh-CKOFM\\Ember Eputh-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Ethos",
+      "displayname": "Ethos",
+      "author": "Kartara",
+      "folder": "Ethos",
+      "def_path": "Ethos/Ethos.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Ethos\\Ethos.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Evil blood Iori",
+      "displayname": "Evil blood Iori",
+      "author": "null",
+      "folder": "ebi",
+      "def_path": "ebi/Evil blood Iori.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\ebi\\Evil blood Iori.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Executioner Iori",
+      "displayname": "Executioner Iori",
+      "author": "HYZEN",
+      "folder": "ExecutionerIori",
+      "def_path": "HYZEN/ExecutionerIori/ExecutionerIori.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\ExecutionerIori\\ExecutionerIori.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Executioner K",
+      "displayname": "Executioner K",
+      "author": "HYZEN",
+      "folder": "K'-vest",
+      "def_path": "HYZEN/ExecutionerK/K'-vest/K'-vest.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\ExecutionerK\\K'-vest\\K'-vest.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Exile Haiaosi",
+      "displayname": "Exile Haiaosi",
+      "author": "Hell",
+      "folder": "Sc",
+      "def_path": "HELL/Eater of Souls-CKOFM/Sc/Exile Haiaosi-Pal.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Eater of Souls-CKOFM\\Sc\\Exile Haiaosi-Pal.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Exile Haiaosi",
+      "displayname": "Exile Haiaosi",
+      "author": "Hell",
+      "folder": "Exile Haiaosi-CKOFM",
+      "def_path": "HELL/Exile Haiaosi-CKOFM/Exile Haiaosi-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Exile Haiaosi-CKOFM\\Exile Haiaosi-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Exile Haiaosi",
+      "displayname": "Exile Haiaosi",
+      "author": "Hell",
+      "folder": "Sc",
+      "def_path": "HELL/Exile Haiaosi-CKOFM/Sc/Exile Haiaosi-Pal.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Exile Haiaosi-CKOFM\\Sc\\Exile Haiaosi-Pal.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Faust-HY",
+      "displayname": "Faust",
+      "author": "HYZEN",
+      "folder": "Faust HY",
+      "def_path": "HYZEN/Faust HY/kfm.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Faust HY\\kfm.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "G-MAN",
+      "displayname": "G-MAN",
+      "author": "HYZEN",
+      "folder": "John_KOF",
+      "def_path": "HYZEN/John_KOF/John_KOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\John_KOF\\John_KOF.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Genesis",
+      "displayname": "Genesis",
+      "author": "Hyzen",
+      "folder": "Genesis",
+      "def_path": "HYZEN/Genesis/kfm.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Genesis\\kfm.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Glaunes",
+      "displayname": "Glaunes",
+      "author": "Keyser",
+      "folder": "Glaunes",
+      "def_path": "Glaunes/Glaunes.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Glaunes\\Glaunes.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "GoodMan",
+      "displayname": "GoodMan",
+      "author": "L-O-V-E",
+      "folder": "Good-Man-CKOFM",
+      "def_path": "Good-Man-CKOFM/Good-Man-CKOFM/Good-Man-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Good-Man-CKOFM\\Good-Man-CKOFM\\Good-Man-CKOFM.def",
+      "group": "Good-Man-CKOFM"
+    },
+    {
+      "name": "Goro",
+      "displayname": "Code-056",
+      "author": "DR-FLAMES",
+      "folder": "Goro",
+      "def_path": "Goro/Goro.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Goro\\Goro.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Gouki-HY",
+      "displayname": "Akuma HY",
+      "author": "HYZEN",
+      "folder": "AkumaHY",
+      "def_path": "HYZEN/AkumaHY/AkumaHY.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\AkumaHY\\AkumaHY.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Granheid",
+      "displayname": "Granheid",
+      "author": "KKOL",
+      "folder": "Granheid-CKOFM",
+      "def_path": "Adawn1/Granheid-CKOFM/Granheid-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Adawn1\\Granheid-CKOFM\\Granheid-CKOFM.def",
+      "group": "Adawn1"
+    },
+    {
+      "name": "Granheid",
+      "displayname": "Granheid",
+      "author": "KKOL",
+      "folder": "Granheid-CKOFM",
+      "def_path": "Granheid-CKOFM/Granheid-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Granheid-CKOFM\\Granheid-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Granheid",
+      "displayname": "Granheid",
+      "author": "KKOL",
+      "folder": "16-04-2024 10-0-47 pm",
+      "def_path": "Granheid-CKOFM/backup/16-04-2024 10-0-47 pm/Granheid-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Granheid-CKOFM\\backup\\16-04-2024 10-0-47 pm\\Granheid-CKOFM.def",
+      "group": "Granheid-CKOFM"
+    },
+    {
+      "name": "Greaush",
+      "displayname": "Greaus",
+      "author": "MONEY\udcd1\udcd7||ff\udcca\udccf",
+      "folder": "Greaus",
+      "def_path": "Greaus/Greaus.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Greaus\\Greaus.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Gustab-CKOFM",
+      "displayname": "Gustab M",
+      "author": "Lester",
+      "folder": "Gustab-CKOFM",
+      "def_path": "Gustab-CKOFM/Gustab-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Gustab-CKOFM\\Gustab-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Hachiro Ueda - Gnist",
+      "displayname": "Gnist",
+      "author": "HYZEN",
+      "folder": "Gnist",
+      "def_path": "HYZEN/Gnist/Gnist.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Gnist\\Gnist.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Hanari_B",
+      "displayname": "Hanari Blood",
+      "author": "Wolf",
+      "folder": "Hanari_Blood",
+      "def_path": "Hanari_Blood/Hanari_Blood.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Hanari_Blood\\Hanari_Blood.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Happy Balrog",
+      "displayname": "Happy Balrog",
+      "author": "HYZEN",
+      "folder": "HappyBalrog",
+      "def_path": "HYZEN/HappyBalrog/HappyBalrog.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\HappyBalrog\\HappyBalrog.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Honda_RZ",
+      "displayname": "Honda RZ",
+      "author": "RazorBR",
+      "folder": "Honda RZ",
+      "def_path": "Honda RZ/Honda RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Honda RZ\\Honda RZ.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Honey",
+      "displayname": "Tamamo",
+      "author": "HELL",
+      "folder": "Honey-CKOFM",
+      "def_path": "HELL/Honey-CKOFM/Honey-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Honey-CKOFM\\Honey-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Hydra",
+      "displayname": "Hydra",
+      "author": "Ex1",
+      "folder": "hydra",
+      "def_path": "hydra/hydra.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\hydra\\hydra.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Hyphis",
+      "displayname": "Hyphis",
+      "author": "FF",
+      "folder": "Hyphis",
+      "def_path": "Hyphis/Hyphis-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Hyphis\\Hyphis-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Ikats",
+      "displayname": "Ikats\";",
+      "author": "app",
+      "folder": "Ikats-CKOFM",
+      "def_path": "Ikats-CKOFM/Ikats-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Ikats-CKOFM\\Ikats-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Infernal Goenitz",
+      "displayname": "Infernal Goenitz",
+      "author": "HYZEN",
+      "folder": "InfernalGoenitz",
+      "def_path": "HYZEN/InfernalGoenitz/Goenitz holy.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\InfernalGoenitz\\Goenitz holy.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Infernox",
+      "displayname": "Infernox",
+      "author": "HELL",
+      "folder": "Infernox-CKOFM",
+      "def_path": "HELL/Infernox-CKOFM/Infernox-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Infernox-CKOFM\\Infernox-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Iori",
+      "displayname": "Iori",
+      "author": "app",
+      "folder": "Iori-CKOFM",
+      "def_path": "Iori-CKOFM/Iori-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Iori-CKOFM\\Iori-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Iori By Sandstorm",
+      "displayname": "Iori Yagami",
+      "author": "Sandstorm",
+      "folder": "Iori Yagami ST",
+      "def_path": "Iori Yagami ST/Iori Yagami ST.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Iori Yagami ST\\Iori Yagami ST.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Iori Clone-42",
+      "displayname": "Iori Clone-42",
+      "author": "Sachiel TDR",
+      "folder": "Iori Clone-42 XV",
+      "def_path": "Iori Clone-42 XV/Iori Clone-42 XV.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Iori Clone-42 XV\\Iori Clone-42 XV.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Iori Yagami",
+      "displayname": "Iori Yagami",
+      "author": "The Passing & Zelgadis and hyzen lol",
+      "folder": "Instinct Iori",
+      "def_path": "Instinct Iori/Iori Yagami-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Instinct Iori\\Iori Yagami-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Iori Yagami",
+      "displayname": "iori yagami",
+      "author": "AVLAR",
+      "folder": "Iori Yagami-KOFM",
+      "def_path": "Iori Yagami-KOFM/Iori Yagami-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Iori Yagami-KOFM\\Iori Yagami-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Iori Yagami MIX",
+      "displayname": "Kaselin",
+      "author": "Zelgadis",
+      "folder": "Kaselin",
+      "def_path": "Kaselin/Kaselin.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kaselin\\Kaselin.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Iori Yagami ST",
+      "displayname": "Yagami ST",
+      "author": "Sandstorm, AI by HYZEN",
+      "folder": "Iori by KILL",
+      "def_path": "HYZEN/Iori by KILL/Iori by KILL.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Iori by KILL\\Iori by KILL.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Iori_XIII",
+      "displayname": "Iori_XIII",
+      "author": "Ximerace + HYZEN",
+      "folder": "Iori_XIII_CKOFM",
+      "def_path": "Iori_XIII_CKOFM/Iori_XIII_CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Iori_XIII_CKOFM\\Iori_XIII_CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Jack_AKOF",
+      "displayname": "Jack",
+      "author": "Reifi",
+      "folder": "Jack_AKOF remake",
+      "def_path": "Jack_AKOF remake/Jack_AKOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Jack_AKOF remake\\Jack_AKOF.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Jaeson RT",
+      "displayname": "Jaeson Roots",
+      "author": "GERTAR AI by HYZEN",
+      "folder": "jaeson-roots-kofa",
+      "def_path": "jaeson-roots-kofa/jaeson-roots-kofa.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\jaeson-roots-kofa\\jaeson-roots-kofa.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Joe Higashi ST",
+      "displayname": "Joe",
+      "author": "Sandstorm",
+      "folder": "Joe XIII",
+      "def_path": "Joe_ST/Joe_XIII/Joe XIII/Joe XIII.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Joe_ST\\Joe_XIII\\Joe XIII\\Joe XIII.def",
+      "group": "Joe_ST"
+    },
+    {
+      "name": "K' Dash",
+      "displayname": "K' Dash",
+      "author": "app",
+      "folder": "K' Dash-CKOFM",
+      "def_path": "K' Dash-CKOFM/K' Dash-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\K' Dash-CKOFM\\K' Dash-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "K'_NewCI",
+      "displayname": "K'_NewCI",
+      "author": "Ten_Seven",
+      "folder": "K_NewCI[2023.1.3]",
+      "def_path": "K_NewCI[2023.1.3]/K'_NewCI.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\K_NewCI[2023.1.3]\\K'_NewCI.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "K-Blue",
+      "displayname": "BLOO",
+      "author": "tutaya",
+      "folder": "Bloo",
+      "def_path": "Bloo/Bloo.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Bloo\\Bloo.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "K-NEO",
+      "displayname": "K-NEO",
+      "author": "Ex1",
+      "folder": "Goktore-CKOFM",
+      "def_path": "Goktore-CKOFM VC0.51/Goktore-CKOFM/Goktore-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Goktore-CKOFM VC0.51\\Goktore-CKOFM\\Goktore-CKOFM.def",
+      "group": "Goktore-CKOFM VC0.51"
+    },
+    {
+      "name": "Kaiqiling",
+      "displayname": "Kaiqiling",
+      "author": "Bentu",
+      "folder": "Kaiqiling-BenTu",
+      "def_path": "Kaiqiling-BenTu/Kaiqiling-BenTu.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kaiqiling-BenTu\\Kaiqiling-BenTu.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Kakuzou",
+      "displayname": "Kakuzou",
+      "author": "Wolf",
+      "folder": "Kakuzou",
+      "def_path": "Kakuzou/Kakuzou.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kakuzou\\Kakuzou.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Kartis-HY2",
+      "displayname": "Kartis",
+      "author": "HYZEN",
+      "folder": "Kartis HY AI",
+      "def_path": "HYZEN/Kartis HY AI/Kartis1.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Kartis HY AI\\Kartis1.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Kasim",
+      "displayname": "Kasim LV2-CKOFM",
+      "author": "ex1",
+      "folder": "Kasim LV2-CKOFM",
+      "def_path": "Kasim LV2-CKOFM/Kasim LV2-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kasim LV2-CKOFM\\Kasim LV2-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Katyr",
+      "displayname": "Katyr",
+      "author": "L-O-V-E\"; revamps/pacing/impact/some effects and slowmo by HYZEN",
+      "folder": "Katyr",
+      "def_path": "Katyr/Katyr.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Katyr\\Katyr.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "kill everthing",
+      "displayname": "kill everthing",
+      "author": "kairuier",
+      "folder": "kill everthing",
+      "def_path": "kill everthing/kill everthing.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\kill everthing\\kill everthing.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "King",
+      "displayname": "King",
+      "author": "HYZEN",
+      "folder": "King-HY",
+      "def_path": "HYZEN/King-HY/King-HY.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\King-HY\\King-HY.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Kiroshi Hikaru",
+      "displayname": "Kiroshi",
+      "author": "Izanagi Kenichi",
+      "folder": "Kiroshi",
+      "def_path": "Kiroshi/Kiroshi/Kiroshi.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kiroshi\\Kiroshi\\Kiroshi.def",
+      "group": "Kiroshi"
+    },
+    {
+      "name": "Klein",
+      "displayname": "Klein",
+      "author": "Kartara",
+      "folder": "Klein",
+      "def_path": "Klein/Klein.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Klein\\Klein.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Krohnen McDougall",
+      "displayname": "Krohnen",
+      "author": "Strong FS",
+      "folder": "Krohnen (Mugen 1.1)",
+      "def_path": "Krohnen_McDougall-KOFM/Krohnen (Mugen 1.1)/Krohnen.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Krohnen_McDougall-KOFM\\Krohnen (Mugen 1.1)\\Krohnen.def",
+      "group": "Krohnen_McDougall-KOFM"
+    },
+    {
+      "name": "Kung Fu Man",
+      "displayname": "Kung Fu Man",
+      "author": "Elecbyte",
+      "folder": "Lily HY",
+      "def_path": "HYZEN/Lily HY/kfm.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Lily HY\\kfm.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Kurit.Blood",
+      "displayname": "Kurit.Blood",
+      "author": "Bentu",
+      "folder": "Kurit.Blood-CKOFM",
+      "def_path": "Kurit_Blood-CKOFM (VC0.15)/Kurit.Blood-CKOFM/Kurit.Blood-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kurit_Blood-CKOFM (VC0.15)\\Kurit.Blood-CKOFM\\Kurit.Blood-CKOFM.def",
+      "group": "Kurit_Blood-CKOFM (VC0.15)"
+    },
+    {
+      "name": "Kururu",
+      "displayname": "Kururu",
+      "author": "ashurii.nekoweb.org, AI by guymbagoomba",
+      "folder": "kururu",
+      "def_path": "kururu/kururu.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\kururu\\kururu.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Kyaga.Blood",
+      "displayname": "Kyaga.Blood",
+      "author": "HELL",
+      "folder": "Kyaga.Blood-CKOFM",
+      "def_path": "HELL/Kyaga.Blood-CKOFM/Kyaga.Blood-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Kyaga.Blood-CKOFM\\Kyaga.Blood-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Kyo by Sandstorm",
+      "displayname": "Kyo Kusanagi",
+      "author": "Sandstorm",
+      "folder": "Kyo Kusanagi ST",
+      "def_path": "Kyo ST/Kyo Kusanagi ST/Kyo Kusanagi ST.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kyo ST\\Kyo Kusanagi ST\\Kyo Kusanagi ST.def",
+      "group": "Kyo ST"
+    },
+    {
+      "name": "Kyo Clone-1",
+      "displayname": "Kyo-01",
+      "author": "Zelgadis",
+      "folder": "Kyo-1-KOFM",
+      "def_path": "Kyo-1-KOFM/Kyo-1-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kyo-1-KOFM\\Kyo-1-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Kyo Clone-2",
+      "displayname": "Kyo-02",
+      "author": "Zelgadis",
+      "folder": "Kyo-2-KOFM",
+      "def_path": "Kyo-2-KOFM/Kyo-2-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kyo-2-KOFM\\Kyo-2-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Kyo-8",
+      "displayname": "Kyo-8",
+      "author": "KKOL",
+      "folder": "Kyo-8",
+      "def_path": "Kyo-8/Kyo-8.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kyo-8\\Kyo-8.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Kyo-YUUHI",
+      "displayname": "Kyo-YUUHI",
+      "author": "YUUHI",
+      "folder": "Kyo(YUUHI)",
+      "def_path": "Kyo(YUUHI)/Kyo(YUUHI).def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Kyo(YUUHI)\\Kyo(YUUHI).def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "kyo_SL",
+      "displayname": "kyo_SL",
+      "author": "MUGEN",
+      "folder": "kyo_SL",
+      "def_path": "kyo_SL/kyo_SL.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\kyo_SL\\kyo_SL.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Lady_Chang_RZ",
+      "displayname": "Lady Chang RZ",
+      "author": "RazorBR",
+      "folder": "Lady Chang RZ",
+      "def_path": "Lady Chang RZ/Lady Chang RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Lady Chang RZ\\Lady Chang RZ.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Lane.Blood",
+      "displayname": "Lane.Blood",
+      "author": "HELL",
+      "folder": "Lane.Blood-CKOFM",
+      "def_path": "HELL/Lane.Blood-CKOFM/Lane.Blood-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HELL\\Lane.Blood-CKOFM\\Lane.Blood-CKOFM.def",
+      "group": "HELL"
+    },
+    {
+      "name": "Legulus",
+      "displayname": "Legulus",
+      "author": "ex1",
+      "folder": "Legulus-CKOFM",
+      "def_path": "Legulus-CKOFM/Legulus-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Legulus-CKOFM\\Legulus-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Leona_Heidern_RZ",
+      "displayname": "Leona Heidern RZ",
+      "author": "RazorBR",
+      "folder": "Leona Heidern RZ",
+      "def_path": "Leona Heidern RZ/Leona Heidern RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Leona Heidern RZ\\Leona Heidern RZ.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Lilith",
+      "displayname": "Lilith",
+      "author": "Sandstorm",
+      "folder": "Anette-KOFM",
+      "def_path": "Anette-KOFM/Anette-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Anette-KOFM\\Anette-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Lilith",
+      "displayname": "Lilith",
+      "author": "Sandstorm",
+      "folder": "02-05-2025 5-44-10 pm",
+      "def_path": "Anette-KOFM/backup/02-05-2025 5-44-10 pm/Anette-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Anette-KOFM\\backup\\02-05-2025 5-44-10 pm\\Anette-KOFM.def",
+      "group": "Anette-KOFM"
+    },
+    {
+      "name": "Lorea",
+      "displayname": "Lorea",
+      "author": "FF, AI by truthchan",
+      "folder": "Lorea-CKOFM",
+      "def_path": "Lorea-CKOFM-AI_v0.5/Lorea-CKOFM/Lorea-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Lorea-CKOFM-AI_v0.5\\Lorea-CKOFM\\Lorea-CKOFM.def",
+      "group": "Lorea-CKOFM-AI_v0.5"
+    },
+    {
+      "name": "Magnus",
+      "displayname": "Magnus",
+      "author": "Crescendo",
+      "folder": "Magnus-KOFM",
+      "def_path": "Magnus-KOFM/Magnus-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Magnus-KOFM\\Magnus-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Mai_Scarlet",
+      "displayname": "Mai Scarlet",
+      "author": "Wolf",
+      "folder": "Mai_Scarlet",
+      "def_path": "Mai_Scarlet/Mai_Scarlet.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Mai_Scarlet\\Mai_Scarlet.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Mars_People_RZ",
+      "displayname": "Mars People RZ",
+      "author": "RazorBR",
+      "folder": "Mars People RZ",
+      "def_path": "Mars People RZ/Mars People RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Mars People RZ\\Mars People RZ.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Maryl",
+      "displayname": "Maryl",
+      "author": "Crescendo",
+      "folder": "Maryl",
+      "def_path": "Maryl v260623/Maryl/Maryl.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Maryl v260623\\Maryl\\Maryl.def",
+      "group": "Maryl v260623"
+    },
+    {
+      "name": "Mec-Element",
+      "displayname": "Mec-Element",
+      "author": "ex1",
+      "folder": "MEC-Element",
+      "def_path": "MEC-Element/MEC-Element.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\MEC-Element\\MEC-Element.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Miss G",
+      "displayname": "Miss G",
+      "author": "Dura7ll3ur\"; Base \"jin\", Sprites by \udce6\udca8\udcb1\udce9\udc80\udc9d\udce6\udc81\udc8b\udce6\udcae\udc87",
+      "folder": "miss-g-kofa",
+      "def_path": "HYZEN/miss-g-kofa/miss-g-kofa.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\miss-g-kofa\\miss-g-kofa.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Mizuchi",
+      "displayname": "Mizuchi",
+      "author": "Hell",
+      "folder": "Mizuchi-KOFM",
+      "def_path": "Mizuchi-KOFM/Mizuchi-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Mizuchi-KOFM\\Mizuchi-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Mizuchi Recetti",
+      "displayname": "Mizuchi",
+      "author": "Recetti",
+      "folder": "Mizuchi - Recetti-beta.v1.4",
+      "def_path": "Mizuchi - Recetti-beta.v1.4/Mizuchi - Recetti-beta.v1.4.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Mizuchi - Recetti-beta.v1.4\\Mizuchi - Recetti-beta.v1.4.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Momoko",
+      "displayname": "Momoko",
+      "author": "Nameless Belial",
+      "folder": "Momoko_KOF",
+      "def_path": "Momoko_KOF/Momoko_KOF/Momoko_KOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Momoko_KOF\\Momoko_KOF\\Momoko_KOF.def",
+      "group": "Momoko_KOF"
+    },
+    {
+      "name": "Myth",
+      "displayname": "The Myth",
+      "author": "HYZEN",
+      "folder": "slenderman",
+      "def_path": "HYZEN/slenderman/Giang_SlendermanAI_edit.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\slenderman\\Giang_SlendermanAI_edit.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Nazo",
+      "displayname": "Nazo",
+      "author": "K-Z, AI by HYZEN",
+      "folder": "nazo-kofa",
+      "def_path": "nazo-kofa/nazo-kofa.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\nazo-kofa\\nazo-kofa.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Nekron the Collector",
+      "displayname": "Nekron",
+      "author": "nameless13 - AI by HYZEN",
+      "folder": "Nekron",
+      "def_path": "Nekron/Nekron.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Nekron\\Nekron.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "NEO",
+      "displayname": "NEO",
+      "author": "Y&M",
+      "folder": "Neo_KOF",
+      "def_path": "Neo_KOF/Neo_KOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Neo_KOF\\Neo_KOF.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "NeoKei",
+      "displayname": "NeoKei",
+      "author": "app",
+      "folder": "NeoKei-CKOFM",
+      "def_path": "NeoKei-CKOFM/NeoKei-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\NeoKei-CKOFM\\NeoKei-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Nightmare Nekron",
+      "displayname": "N. Nekron",
+      "author": "nameless13",
+      "folder": "Nightmare_Nekron",
+      "def_path": "Nightmare_Nekron/Nightmare_Nekron.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Nightmare_Nekron\\Nightmare_Nekron.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Nightmare_Geese_RZ",
+      "displayname": "Nightmare Geese RZ",
+      "author": "RazorBR",
+      "folder": "Nightmare Geese RZ",
+      "def_path": "Nightmare Geese RZ/Nightmare Geese RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Nightmare Geese RZ\\Nightmare Geese RZ.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "O.Kyo-Keyser",
+      "displayname": "O.Kyo-Keyser",
+      "author": "Keyser",
+      "folder": "O.Kyo-Keyser",
+      "def_path": "O.Kyo-Keyser/O.Kyo-Keyser.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\O.Kyo-Keyser\\O.Kyo-Keyser.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Oni",
+      "displayname": "Oni",
+      "author": "LESSARD",
+      "folder": "Oni",
+      "def_path": "Oni/Oni.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Oni\\Oni.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "OPIRUS ELEMENT",
+      "displayname": "Element AV",
+      "author": "OPIRUS,AVLAR",
+      "folder": "Element AV",
+      "def_path": "Element AV/Element AV.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Element AV\\Element AV.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Orochi iori",
+      "displayname": "Orochi Iori",
+      "author": "Zelgadis, Opirus, Watson456 & Dant69",
+      "folder": "Orochi_iori-KOFM",
+      "def_path": "Orochi_iori-KOFM/Orochi_iori-KOFM/Orochi_iori-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Orochi_iori-KOFM\\Orochi_iori-KOFM\\Orochi_iori-KOFM.def",
+      "group": "Orochi_iori-KOFM"
+    },
+    {
+      "name": "Orochi iori Yagami",
+      "displayname": "OROCHI IORI AV",
+      "author": "RVL,AVLAR",
+      "folder": "Orochi Iori-AV",
+      "def_path": "Orochi Iori-AV/Orochi Iori-AV.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Orochi Iori-AV\\Orochi Iori-AV.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Orochi iori Yagami",
+      "displayname": "OROCHI IORI AV",
+      "author": "AVLAR",
+      "folder": "Orochi-Iori-AV",
+      "def_path": "Orochi-Iori-AV/Orochi-Iori-AV.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Orochi-Iori-AV\\Orochi-Iori-AV.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Orochi Kyo",
+      "displayname": "Orochi Kyo",
+      "author": "The Passing & Manish Sen",
+      "folder": "Orochi Kyo SP-KOFM",
+      "def_path": "Orochi_Kyo_SP-KOFM/Orochi Kyo SP-KOFM/Orochi Kyo SP-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Orochi_Kyo_SP-KOFM\\Orochi Kyo SP-KOFM\\Orochi Kyo SP-KOFM.def",
+      "group": "Orochi_Kyo_SP-KOFM"
+    },
+    {
+      "name": "Orochi-HY",
+      "displayname": "Orochi-HY",
+      "author": "HYZEN, Vergil Kusanagi",
+      "folder": "orochi_release-ver",
+      "def_path": "orochi_release-ver/orochi_release-ver.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\orochi_release-ver\\orochi_release-ver.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Orochi.Yamazaki",
+      "displayname": "Orochi.Yamazaki",
+      "author": "HELL",
+      "folder": "Orochi.Yamazaki-CKOFM",
+      "def_path": "Orochi.Yamazaki-CKOFM/Orochi.Yamazaki-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Orochi.Yamazaki-CKOFM\\Orochi.Yamazaki-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Ournotus",
+      "displayname": "Ournotus",
+      "author": "HYZEN, Vergil Kusanagi",
+      "folder": "orochi-BS V2",
+      "def_path": "orochi-BS V2/orochi-BS V2.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\orochi-BS V2\\orochi-BS V2.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Phobos",
+      "displayname": "Phobos",
+      "author": "Crescendo",
+      "folder": "Phobos",
+      "def_path": "Phobos/Phobos.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Phobos\\Phobos.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "R_Chris",
+      "displayname": "Raven Chris",
+      "author": "Wolf",
+      "folder": "Raven_Chris",
+      "def_path": "Raven_Chris/Raven_Chris.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Raven_Chris\\Raven_Chris.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Raisen",
+      "displayname": "Raisen.blood",
+      "author": "Crescendo",
+      "folder": "Raisen.blood-KOFM",
+      "def_path": "Raisen_blood-KOFM/Raisen.blood-KOFM/Raisen.blood-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Raisen_blood-KOFM\\Raisen.blood-KOFM\\Raisen.blood-KOFM.def",
+      "group": "Raisen_blood-KOFM"
+    },
+    {
+      "name": "Regad",
+      "displayname": "Regad",
+      "author": "EvE",
+      "folder": "Regad-CKOFM",
+      "def_path": "Regad-CKOFM/Regad-CKOFM/Regad-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Regad-CKOFM\\Regad-CKOFM\\Regad-CKOFM.def",
+      "group": "Regad-CKOFM"
+    },
+    {
+      "name": "Renia Schizoph",
+      "displayname": "Renia",
+      "author": "JoeOtaku",
+      "folder": "Renia Blood-KOFM",
+      "def_path": "Renia Blood-KOFM/Renia Blood-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Renia Blood-KOFM\\Renia Blood-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Renia Schizoph",
+      "displayname": "Renia",
+      "author": "JoeOtaku",
+      "folder": "29-12-2018 1-6-51 pm",
+      "def_path": "Renia Blood-KOFM/backup/29-12-2018 1-6-51 pm/Renia.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Renia Blood-KOFM\\backup\\29-12-2018 1-6-51 pm\\Renia.def",
+      "group": "Renia Blood-KOFM"
+    },
+    {
+      "name": "Rioter Cross",
+      "displayname": "Rioter Cross",
+      "author": "apps",
+      "folder": "Rioter Cross-CKOFM",
+      "def_path": "Rioter Cross-CKOFM/Rioter Cross-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Rioter Cross-CKOFM\\Rioter Cross-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Ryuji",
+      "displayname": "Ryuji",
+      "author": "Sikoli",
+      "folder": "Ryuji",
+      "def_path": "Ryuji/Ryuji/Ryuji.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Ryuji\\Ryuji\\Ryuji.def",
+      "group": "Ryuji"
+    },
+    {
+      "name": "Ryuji Yamazaki",
+      "displayname": "Ryuji Yamazaki",
+      "author": "Yokosima & Ahuron",
+      "folder": "Yamazaki-B-KOFM",
+      "def_path": "Yamazaki-B-KOFM/Yamazaki-B-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Yamazaki-B-KOFM\\Yamazaki-B-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "SFIRE_MIZUCHI",
+      "displayname": "Soulfire Mizuchi",
+      "author": "SpookyKujo\";hy-edit",
+      "folder": "SFIRE_MIZUCHI",
+      "def_path": "HYZEN/SFIRE_MIZUCHI/SFIRE_MIZUCHI.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\SFIRE_MIZUCHI\\SFIRE_MIZUCHI.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Shermie_W",
+      "displayname": "Shermie Wolf",
+      "author": "Wolf",
+      "folder": "Shermie_Wolf",
+      "def_path": "Shermie_Wolf/Shermie_Wolf.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Shermie_Wolf\\Shermie_Wolf.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Slasher-Kyo",
+      "displayname": "Slasher Kyo",
+      "author": "HYZEN\";nearl1z",
+      "folder": "slasher-kyo",
+      "def_path": "HYZEN/slasher-kyo/Kyo.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\slasher-kyo\\Kyo.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Souei",
+      "displayname": "Souei",
+      "author": "L-O-V-E",
+      "folder": "Souei-CKOFM",
+      "def_path": "Souei-CKOFM/Souei-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Souei-CKOFM\\Souei-CKOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Soufu",
+      "displayname": "Soufu",
+      "author": "L-O-V-E",
+      "folder": "Soufu-CKOFM",
+      "def_path": "Soufu-CKOFM/Soufu-CKOFM/Soufu-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Soufu-CKOFM\\Soufu-CKOFM\\Soufu-CKOFM.def",
+      "group": "Soufu-CKOFM"
+    },
+    {
+      "name": "Spirit of Goenitz",
+      "displayname": "GHOENITZ",
+      "author": "YongMing, kkol, HYZEN, kirishima, AVPboy",
+      "folder": "Ghoenitz",
+      "def_path": "Ghoenitz/Ghoenitz/Ghoenitz.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Ghoenitz\\Ghoenitz\\Ghoenitz.def",
+      "group": "Ghoenitz"
+    },
+    {
+      "name": "StarZochi",
+      "displayname": "STARZOCHI",
+      "author": "AVLAR",
+      "folder": "StarZochi",
+      "def_path": "StarZochi/STARZOCHI.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\StarZochi\\STARZOCHI.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Stellar Jhun",
+      "displayname": "Stellar Jhun Hoon",
+      "author": "HYZEN",
+      "folder": "StellarJhun",
+      "def_path": "HYZEN/StellarJhun/Jhun-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\StellarJhun\\Jhun-KOFM.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Sylvia",
+      "displayname": "Sylvia",
+      "author": "Lester",
+      "folder": "Sylvia-CKOFM",
+      "def_path": "Sylvia-CKOFM[VC0.14]/Sylvia-CKOFM/Sylvia-CKOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Sylvia-CKOFM[VC0.14]\\Sylvia-CKOFM\\Sylvia-CKOFM.def",
+      "group": "Sylvia-CKOFM[VC0.14]"
+    },
+    {
+      "name": "TB-1",
+      "displayname": "TB-1",
+      "author": "Sikoli - HYZEN",
+      "folder": "TB-1HY",
+      "def_path": "HYZEN/TB-1HY/TB-1HY.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\TB-1HY\\TB-1HY.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Testament-HY",
+      "displayname": "Testament",
+      "author": "HYZEN",
+      "folder": "Testament-HY",
+      "def_path": "HYZEN/Testament-HY/kfm.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Testament-HY\\kfm.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Testament-HY",
+      "displayname": "Testament",
+      "author": "Hyzen",
+      "folder": "tw",
+      "def_path": "HYZEN/tw/kfm.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\tw\\kfm.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Titan",
+      "displayname": "Titan-HY",
+      "author": "Vergil Kusanagi & OrochiDarkKyo",
+      "folder": "Titan HY",
+      "def_path": "Titan HY/Titan_KOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Titan HY\\Titan_KOF.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Touba",
+      "displayname": "Touba",
+      "author": "Hyzen",
+      "folder": "Touba",
+      "def_path": "HYZEN/Touba/kfm.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Touba\\kfm.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Trial_01_ProjectBlood",
+      "displayname": "T",
+      "author": "jin, JoeOtaku",
+      "folder": "T'",
+      "def_path": "T'/T'.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\T'\\T'.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Valete",
+      "displayname": "Valete",
+      "author": "Wolf",
+      "folder": "Valete",
+      "def_path": "Valete/Valete.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Valete\\Valete.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Vanessa-OvO",
+      "displayname": "Vanessa-OvO",
+      "author": "GCX",
+      "folder": "Vanessa-OvO",
+      "def_path": "Vanessa-OvO (AI)/Vanessa-OvO/Vanessa-OvO.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Vanessa-OvO (AI)\\Vanessa-OvO\\Vanessa-OvO.def",
+      "group": "Vanessa-OvO (AI)"
+    },
+    {
+      "name": "Void Sajuro",
+      "displayname": "Void",
+      "author": "Izanagi Kenichi",
+      "folder": "Void 2.0",
+      "def_path": "Void (Official)/Void (Official)/Void/Void 2.0/Void.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Void (Official)\\Void (Official)\\Void\\Void 2.0\\Void.def",
+      "group": "Void (Official)"
+    },
+    {
+      "name": "Whip_RZ",
+      "displayname": "Whip RZ",
+      "author": "RazorBR",
+      "folder": "Whip RZ",
+      "def_path": "Whip RZ/Whip RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Whip RZ\\Whip RZ.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "X-erO",
+      "displayname": "X-erO",
+      "author": "GhoS",
+      "folder": "X-erO",
+      "def_path": "X-erO/X-erO.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\X-erO\\X-erO.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Yagami-Instinct",
+      "displayname": "Iori Yagami",
+      "author": "YUUHI",
+      "folder": "Yagami-Instinct(YUUHI)",
+      "def_path": "Yagami-Instinct(YUUHI)/Yagami-Instinct(YUUHI).def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Yagami-Instinct(YUUHI)\\Yagami-Instinct(YUUHI).def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Yuri Sakazaki",
+      "displayname": "Yuri HY",
+      "author": "HYZEN\";Strong FS, Fervicante, Ohgaki, Sui, Ahuron, KoopaKoot",
+      "folder": "Yuri3",
+      "def_path": "HYZEN/Yuri3/Yuri3.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Yuri3\\Yuri3.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Z-Gold",
+      "displayname": "Rayno",
+      "author": "Stara&BL(\udcc6\udce1\udcba\udcda\udcb4\udca6\udcb5\udcc4\udcb9\udce2\udcc1\udcc1",
+      "folder": "Rayno-1.1",
+      "def_path": "Rayno-1.1/Rayno 1.1.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Rayno-1.1\\Rayno 1.1.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Zeiel",
+      "displayname": "Zeiel",
+      "author": "nameless13",
+      "folder": "Zeiel",
+      "def_path": "HYZEN/Zeiel/Zeiel.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\Zeiel\\Zeiel.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "Zepia\";\udce8\udca7\udc92\udce8\udc89\udcb2\udce5\udc90\udc8d",
+      "displayname": "Zepia HY\";\udce8\udca7\udc92\udce8\udc89\udcb2\udce6\udc98\udcbe\udce7\udca4\udcba\udce5\udc90\udc8d",
+      "author": "HYZEN\";\udce4\udcbd\udc9c\udce8\udc80\udc85\udce5\udc90\udc8d",
+      "folder": "ZepiaHY",
+      "def_path": "HYZEN/ZepiaHY/Zepia.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\HYZEN\\ZepiaHY\\Zepia.def",
+      "group": "HYZEN"
+    },
+    {
+      "name": "zero",
+      "displayname": "Keeper of K",
+      "author": "flowrallia",
+      "folder": "Keeper_of_K_AKOF",
+      "def_path": "Keeper_of_K_AKOF/Keeper_of_K_AKOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Keeper_of_K_AKOF\\Keeper_of_K_AKOF.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "zero",
+      "displayname": "Keeper of K",
+      "author": "flowrallia",
+      "folder": "15-07-2022 4-50-19 pm",
+      "def_path": "Keeper_of_K_AKOF/backup/15-07-2022 4-50-19 pm/Keeper_of_K_AKOF.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Keeper_of_K_AKOF\\backup\\15-07-2022 4-50-19 pm\\Keeper_of_K_AKOF.def",
+      "group": "Keeper_of_K_AKOF"
+    },
+    {
+      "name": "Zero ST",
+      "displayname": "Zero",
+      "author": "ICCHA",
+      "folder": "Zero (Original)-KOFM",
+      "def_path": "Zero (Original)-KOFM/Zero (Original)-KOFM.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Zero (Original)-KOFM\\Zero (Original)-KOFM.def",
+      "group": "Ungrouped"
+    },
+    {
+      "name": "Ziege_RZ",
+      "displayname": "Ziege RZ",
+      "author": "RazorBR",
+      "folder": "Ziege RZ",
+      "def_path": "Ziege RZ/Ziege RZ.def",
+      "abs_path": "C:/Users/Hp/Desktop/KOFM Selected Roster\\chars\\Ziege RZ\\Ziege RZ.def",
+      "group": "Ungrouped"
+    }
+  ],
+  "stages": []
+}

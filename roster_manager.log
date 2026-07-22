@@ -1,0 +1,9 @@
+2026-07-22 11:32:09,407 [scanner] INFO: Scanned 180 characters from C:/Users/Hp/Desktop/KOFM Selected Roster\chars
+2026-07-22 11:32:09,632 [scanner] INFO: Scanned 0 stages from C:/Users/Hp/Desktop/KOFM Selected Roster\stages
+2026-07-22 11:32:09,637 [scanner] INFO: Saved cache to char_stage_cache.json
+2026-07-22 11:33:58,195 [select_writer] INFO: Backed up select.def to C:/Users/Hp/Desktop/KOFM Selected Roster\data\roster_backups\select_20260722_113358.def
+2026-07-22 11:33:58,197 [select_writer] INFO: Wrote select.def with 7 chars and 0 stages
+2026-07-22 11:33:58,197 [mugen_runner] INFO: Launching MUGEN: C:/Users/Hp/Desktop/KOFM Selected Roster\mugen.exe
+2026-07-22 11:35:12,626 [mugen_runner] INFO: MUGEN exited.
+2026-07-22 11:35:12,628 [select_writer] INFO: Restored select.def from C:/Users/Hp/Desktop/KOFM Selected Roster\data\roster_backups\select_20260722_113358.def
+2026-07-22 11:35:12,629 [mugen_runner] INFO: Restored original select.def
