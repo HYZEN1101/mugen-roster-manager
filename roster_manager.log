@@ -107,3 +107,360 @@
 2026-07-23 10:34:10,069 [sff_reader] INFO: SFFv1: image_total=2010 first_offset=512
 2026-07-23 10:34:10,069 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1673 pcx_len=5468 pal_flag=0
 2026-07-23 10:34:10,083 [sff_reader] INFO: SFFv1: decoded portrait → (94, 137)
+2026-07-23 10:40:18,225 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:18,226 [sff_reader] INFO: SFFv1: image_total=1868 first_offset=512
+2026-07-23 10:40:18,227 [sff_reader] INFO: SFFv1: found 9000,1 at offset=28742 pcx_len=7697 pal_flag=0
+2026-07-23 10:40:18,228 [sff_reader] INFO: SFFv1: captured shared palette from sprite#9 (0,1)
+2026-07-23 10:40:18,241 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:40:18,242 [sff_reader] INFO: SFFv2: sprites=2364@2432 palettes=120@512 ldata@68624(4939668) tdata@5008292(0)
+2026-07-23 10:40:18,247 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1693: 94x128 fmt=2 doff=3665177 dlen=6643 pal=86 flags=0
+2026-07-23 10:40:18,279 [sff_reader] INFO: SFFv2: decoding fmt=2 size=94x128 raw=6643 bytes first8=002f000076004311
+2026-07-23 10:40:18,289 [sff_reader] INFO: SFFv1: decoded portrait → (114, 127)
+2026-07-23 10:40:18,309 [sff_reader] INFO: SFFv2: portrait decoded → (94, 128) RGBA
+2026-07-23 10:40:18,313 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:18,313 [sff_reader] INFO: SFFv1: image_total=2528 first_offset=512
+2026-07-23 10:40:18,332 [sff_reader] INFO: SFFv1: found 9000,1 at offset=8554708 pcx_len=6075 pal_flag=0
+2026-07-23 10:40:18,346 [sff_reader] INFO: SFFv1: decoded portrait → (107, 117)
+2026-07-23 10:40:18,389 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:18,390 [sff_reader] INFO: SFFv1: image_total=1617 first_offset=512
+2026-07-23 10:40:18,402 [sff_reader] INFO: SFFv1: found 9000,1 at offset=4939928 pcx_len=10156 pal_flag=0
+2026-07-23 10:40:18,436 [sff_reader] INFO: SFFv1: decoded portrait → (128, 149)
+2026-07-23 10:40:18,717 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:40:18,717 [sff_reader] INFO: SFFv2: sprites=5024@5408 palettes=306@512 ldata@146080(77072255) tdata@77218335(0)
+2026-07-23 10:40:18,719 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1506: 128x149 fmt=10 doff=3312197 dlen=5940 pal=50 flags=0
+2026-07-23 10:40:18,770 [sff_reader] INFO: SFFv2: decoding fmt=10 size=128x149 raw=5940 bytes first8=804a000089504e47
+2026-07-23 10:40:18,770 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=804a000089504e47
+2026-07-23 10:40:18,807 [sff_reader] INFO: SFFv2 fmt10: decoded → (128, 149)
+2026-07-23 10:40:18,807 [sff_reader] INFO: SFFv2: portrait decoded → (128, 149) RGBA
+2026-07-23 10:40:19,542 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:19,542 [sff_reader] INFO: SFFv1: image_total=3330 first_offset=512
+2026-07-23 10:40:19,543 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1705 pcx_len=6268 pal_flag=0
+2026-07-23 10:40:19,547 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:19,548 [sff_reader] INFO: SFFv1: image_total=1781 first_offset=512
+2026-07-23 10:40:19,548 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1996 pcx_len=11843 pal_flag=0
+2026-07-23 10:40:19,556 [sff_reader] INFO: SFFv1: captured shared palette from sprite#462 (1100,2)
+2026-07-23 10:40:19,589 [sff_reader] INFO: SFFv1: decoded portrait → (200, 200)
+2026-07-23 10:40:19,596 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:19,597 [sff_reader] INFO: SFFv1: image_total=2519 first_offset=512
+2026-07-23 10:40:19,597 [sff_reader] INFO: SFFv1: found 9000,1 at offset=21479 pcx_len=28736 pal_flag=0
+2026-07-23 10:40:19,600 [sff_reader] INFO: SFFv1: captured shared palette from sprite#615 (5070,20)
+2026-07-23 10:40:19,625 [sff_reader] INFO: SFFv1: decoded portrait → (146, 205)
+2026-07-23 10:40:19,633 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:40:19,634 [sff_reader] INFO: SFFv2: sprites=1502@1264 palettes=47@512 ldata@43320(3429964) tdata@3473284(0)
+2026-07-23 10:40:19,637 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1428: 128x165 fmt=10 doff=3339700 dlen=4114 pal=46 flags=0
+2026-07-23 10:40:19,654 [sff_reader] INFO: SFFv2: decoding fmt=10 size=128x165 raw=4114 bytes first8=8052000089504e47
+2026-07-23 10:40:19,655 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=8052000089504e47
+2026-07-23 10:40:19,664 [sff_reader] INFO: SFFv2 fmt10: decoded → (128, 165)
+2026-07-23 10:40:19,681 [sff_reader] INFO: SFFv1: captured shared palette from sprite#1144 (7051,12)
+2026-07-23 10:40:19,684 [sff_reader] INFO: SFFv2: portrait decoded → (128, 165) RGBA
+2026-07-23 10:40:19,813 [sff_reader] INFO: SFFv1: decoded portrait → (141, 461)
+2026-07-23 10:40:19,844 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:40:19,845 [sff_reader] INFO: SFFv2: sprites=1413@1984 palettes=92@512 ldata@41548(7555703) tdata@7597251(0)
+2026-07-23 10:40:19,849 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1339: 103x175 fmt=2 doff=7507926 dlen=7268 pal=91 flags=0
+2026-07-23 10:40:19,875 [sff_reader] INFO: SFFv2: decoding fmt=2 size=103x175 raw=7268 bytes first8=694600006f001c7f
+2026-07-23 10:40:19,887 [sff_reader] INFO: SFFv2: portrait decoded → (103, 175) RGBA
+2026-07-23 10:40:25,755 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:40:25,755 [sff_reader] INFO: SFFv2: sprites=1321@1504 palettes=62@512 ldata@38492(9660242) tdata@9698734(0)
+2026-07-23 10:40:25,757 [sff_reader] INFO: SFFv2: found 9000,1 at entry#765: 112x157 fmt=10 doff=1957572 dlen=3343 pal=21 flags=0
+2026-07-23 10:40:25,765 [sff_reader] INFO: SFFv2: decoding fmt=10 size=112x157 raw=3343 bytes first8=b044000089504e47
+2026-07-23 10:40:25,766 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=b044000089504e47
+2026-07-23 10:40:25,767 [sff_reader] INFO: SFFv2 fmt10: decoded → (112, 157)
+2026-07-23 10:40:25,767 [sff_reader] INFO: SFFv2: portrait decoded → (112, 157) RGBA
+2026-07-23 10:40:26,175 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:40:26,176 [sff_reader] INFO: SFFv2: sprites=2003@1776 palettes=79@512 ldata@57860(4682770) tdata@4740630(0)
+2026-07-23 10:40:26,178 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1854: 118x123 fmt=10 doff=4299729 dlen=4649 pal=78 flags=0
+2026-07-23 10:40:26,198 [sff_reader] INFO: SFFv2: decoding fmt=10 size=118x123 raw=4649 bytes first8=b238000089504e47
+2026-07-23 10:40:26,198 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=b238000089504e47
+2026-07-23 10:40:26,200 [sff_reader] INFO: SFFv2 fmt10: decoded → (118, 123)
+2026-07-23 10:40:26,200 [sff_reader] INFO: SFFv2: portrait decoded → (118, 123) RGBA
+2026-07-23 10:40:26,482 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:26,483 [sff_reader] INFO: SFFv1: image_total=2147 first_offset=512
+2026-07-23 10:40:26,483 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1766 pcx_len=9180 pal_flag=0
+2026-07-23 10:40:26,490 [sff_reader] INFO: SFFv1: captured shared palette from sprite#492 (170,2)
+2026-07-23 10:40:26,504 [sff_reader] INFO: SFFv1: decoded portrait → (102, 149)
+2026-07-23 10:40:27,029 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:27,030 [sff_reader] INFO: SFFv1: image_total=1947 first_offset=512
+2026-07-23 10:40:27,030 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1766 pcx_len=9180 pal_flag=0
+2026-07-23 10:40:27,055 [sff_reader] INFO: SFFv1: captured shared palette from sprite#867 (7030,13)
+2026-07-23 10:40:27,067 [sff_reader] INFO: SFFv1: decoded portrait → (102, 149)
+2026-07-23 10:40:27,487 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:40:27,488 [sff_reader] INFO: SFFv2: sprites=1988@1792 palettes=80@512 ldata@57456(33422793) tdata@33480249(0)
+2026-07-23 10:40:27,490 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1987: 120x140 fmt=10 doff=33413104 dlen=9689 pal=76 flags=0
+2026-07-23 10:40:27,509 [sff_reader] INFO: SFFv2: decoding fmt=10 size=120x140 raw=9689 bytes first8=000d020089504e47
+2026-07-23 10:40:27,509 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=000d020089504e47
+2026-07-23 10:40:27,510 [sff_reader] INFO: SFFv2 fmt10: decoded → (120, 140)
+2026-07-23 10:40:27,511 [sff_reader] INFO: SFFv2: portrait decoded → (120, 140) RGBA
+2026-07-23 10:40:28,023 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:28,024 [sff_reader] INFO: SFFv1: image_total=3478 first_offset=512
+2026-07-23 10:40:28,026 [sff_reader] INFO: SFFv1: found 9000,1 at offset=3318 pcx_len=6903 pal_flag=0
+2026-07-23 10:40:28,064 [sff_reader] INFO: SFFv1: captured shared palette from sprite#1674 (7008,8)
+2026-07-23 10:40:28,081 [sff_reader] INFO: SFFv1: decoded portrait → (120, 140)
+2026-07-23 10:40:28,896 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:28,896 [sff_reader] INFO: SFFv1: image_total=2931 first_offset=512
+2026-07-23 10:40:28,897 [sff_reader] INFO: SFFv1: found 9000,1 at offset=512 pcx_len=12070 pal_flag=0
+2026-07-23 10:40:28,909 [sff_reader] INFO: SFFv1: captured shared palette from sprite#271 (2134,2)
+2026-07-23 10:40:28,949 [sff_reader] INFO: SFFv1: decoded portrait → (111, 285)
+2026-07-23 10:40:29,792 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:29,793 [sff_reader] INFO: SFFv1: image_total=2010 first_offset=512
+2026-07-23 10:40:29,793 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1673 pcx_len=5468 pal_flag=0
+2026-07-23 10:40:29,837 [sff_reader] INFO: SFFv1: captured shared palette from sprite#2009 (5950,3)
+2026-07-23 10:40:29,850 [sff_reader] INFO: SFFv1: decoded portrait → (94, 137)
+2026-07-23 10:40:30,810 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:40:30,810 [sff_reader] INFO: SFFv2: sprites=1274@1136 palettes=39@512 ldata@36808(2981006) tdata@3017814(0)
+2026-07-23 10:40:30,811 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1: 95x116 fmt=2 doff=23630 dlen=6188 pal=38 flags=0
+2026-07-23 10:40:30,816 [sff_reader] INFO: SFFv2: decoding fmt=2 size=95x116 raw=6188 bytes first8=0c2b000000423e60
+2026-07-23 10:40:30,825 [sff_reader] INFO: SFFv2: portrait decoded → (95, 116) RGBA
+2026-07-23 10:40:31,338 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:31,339 [sff_reader] INFO: SFFv1: image_total=3421 first_offset=512
+2026-07-23 10:40:31,339 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1661 pcx_len=4537 pal_flag=0
+2026-07-23 10:40:31,340 [sff_reader] INFO: SFFv1: captured shared palette from sprite#13 (0,9)
+2026-07-23 10:40:31,347 [sff_reader] INFO: SFFv1: decoded portrait → (75, 114)
+2026-07-23 10:40:32,621 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:40:32,621 [sff_reader] INFO: SFFv1: image_total=1665 first_offset=512
+2026-07-23 10:40:32,622 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1922 pcx_len=7818 pal_flag=0
+2026-07-23 10:40:32,623 [sff_reader] INFO: SFFv1: captured shared palette from sprite#3 (0,1)
+2026-07-23 10:40:32,633 [sff_reader] INFO: SFFv1: decoded portrait → (120, 140)
+2026-07-23 10:41:13,760 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:41:13,760 [sff_reader] INFO: SFFv1: image_total=2938 first_offset=512
+2026-07-23 10:41:13,761 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1694 pcx_len=7747 pal_flag=0
+2026-07-23 10:41:13,761 [sff_reader] INFO: SFFv1: found 9000,1 at offset=9505 pcx_len=5964 pal_flag=0
+2026-07-23 10:41:13,763 [sff_reader] INFO: SFFv1: captured shared palette from sprite#10 (0,6)
+2026-07-23 10:41:13,772 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:41:13,772 [sff_reader] INFO: SFFv1: image_total=3330 first_offset=512
+2026-07-23 10:41:13,773 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1705 pcx_len=6268 pal_flag=0
+2026-07-23 10:41:13,786 [sff_reader] INFO: SFFv1: captured shared palette from sprite#462 (1100,2)
+2026-07-23 10:41:13,807 [sff_reader] INFO: SFFv1: decoded portrait → (120, 140)
+2026-07-23 10:41:13,843 [sff_reader] INFO: SFFv1: decoded portrait → (200, 200)
+2026-07-23 10:41:13,900 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:41:13,901 [sff_reader] INFO: SFFv1: image_total=2519 first_offset=512
+2026-07-23 10:41:13,902 [sff_reader] INFO: SFFv1: found 9000,1 at offset=21479 pcx_len=28736 pal_flag=0
+2026-07-23 10:41:13,912 [sff_reader] INFO: SFFv1: captured shared palette from sprite#1144 (7051,12)
+2026-07-23 10:41:13,975 [sff_reader] INFO: SFFv1: decoded portrait → (141, 461)
+2026-07-23 10:41:14,700 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:41:14,700 [sff_reader] INFO: SFFv1: image_total=1781 first_offset=512
+2026-07-23 10:41:14,701 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1996 pcx_len=11843 pal_flag=0
+2026-07-23 10:41:14,707 [sff_reader] INFO: SFFv1: captured shared palette from sprite#615 (5070,20)
+2026-07-23 10:41:14,737 [sff_reader] INFO: SFFv1: decoded portrait → (146, 205)
+2026-07-23 10:42:00,565 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:42:00,566 [sff_reader] INFO: SFFv1: image_total=2147 first_offset=512
+2026-07-23 10:42:00,567 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1766 pcx_len=9180 pal_flag=0
+2026-07-23 10:42:00,573 [sff_reader] INFO: SFFv1: captured shared palette from sprite#492 (170,2)
+2026-07-23 10:42:00,588 [sff_reader] INFO: SFFv1: decoded portrait → (102, 149)
+2026-07-23 10:42:00,661 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:42:00,661 [sff_reader] INFO: SFFv2: sprites=2003@1776 palettes=79@512 ldata@57860(4682770) tdata@4740630(0)
+2026-07-23 10:42:00,666 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1854: 118x123 fmt=10 doff=4299729 dlen=4649 pal=78 flags=0
+2026-07-23 10:42:00,688 [sff_reader] INFO: SFFv2: decoding fmt=10 size=118x123 raw=4649 bytes first8=b238000089504e47
+2026-07-23 10:42:00,688 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=b238000089504e47
+2026-07-23 10:42:00,737 [sff_reader] INFO: SFFv2 fmt10: decoded → (118, 123)
+2026-07-23 10:42:00,738 [sff_reader] INFO: SFFv2: portrait decoded → (118, 123) RGBA
+2026-07-23 10:42:38,173 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:42:38,173 [sff_reader] INFO: SFFv1: image_total=1947 first_offset=512
+2026-07-23 10:42:38,174 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1766 pcx_len=9180 pal_flag=0
+2026-07-23 10:42:38,184 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:42:38,187 [sff_reader] INFO: SFFv2: sprites=1988@1792 palettes=80@512 ldata@57456(33422793) tdata@33480249(0)
+2026-07-23 10:42:38,195 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1987: 120x140 fmt=10 doff=33413104 dlen=9689 pal=76 flags=0
+2026-07-23 10:42:38,245 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:42:38,248 [sff_reader] INFO: SFFv1: image_total=3478 first_offset=512
+2026-07-23 10:42:38,249 [sff_reader] INFO: SFFv2: decoding fmt=10 size=120x140 raw=9689 bytes first8=000d020089504e47
+2026-07-23 10:42:38,249 [sff_reader] INFO: SFFv1: found 9000,1 at offset=3318 pcx_len=6903 pal_flag=0
+2026-07-23 10:42:38,250 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=000d020089504e47
+2026-07-23 10:42:38,251 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:42:38,252 [sff_reader] INFO: SFFv1: image_total=2931 first_offset=512
+2026-07-23 10:42:38,252 [sff_reader] INFO: SFFv2 fmt10: decoded → (120, 140)
+2026-07-23 10:42:38,253 [sff_reader] INFO: SFFv1: found 9000,1 at offset=512 pcx_len=12070 pal_flag=0
+2026-07-23 10:42:38,254 [sff_reader] INFO: SFFv2: portrait decoded → (120, 140) RGBA
+2026-07-23 10:42:38,276 [sff_reader] INFO: SFFv1: captured shared palette from sprite#271 (2134,2)
+2026-07-23 10:42:38,337 [sff_reader] INFO: SFFv1: decoded portrait → (111, 285)
+2026-07-23 10:42:38,349 [sff_reader] INFO: SFFv1: captured shared palette from sprite#867 (7030,13)
+2026-07-23 10:42:38,376 [sff_reader] INFO: SFFv1: decoded portrait → (102, 149)
+2026-07-23 10:42:38,394 [sff_reader] INFO: SFFv1: captured shared palette from sprite#1674 (7008,8)
+2026-07-23 10:42:38,420 [sff_reader] INFO: SFFv1: decoded portrait → (120, 140)
+2026-07-23 10:43:02,076 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:43:02,077 [sff_reader] INFO: SFFv2: sprites=1274@1136 palettes=39@512 ldata@36808(2981006) tdata@3017814(0)
+2026-07-23 10:43:02,077 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1: 95x116 fmt=2 doff=23630 dlen=6188 pal=38 flags=0
+2026-07-23 10:43:02,083 [sff_reader] INFO: SFFv2: decoding fmt=2 size=95x116 raw=6188 bytes first8=0c2b000000423e60
+2026-07-23 10:43:02,094 [sff_reader] INFO: SFFv2: portrait decoded → (95, 116) RGBA
+2026-07-23 10:43:02,097 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:43:02,097 [sff_reader] INFO: SFFv2: sprites=1321@1504 palettes=62@512 ldata@38492(9660242) tdata@9698734(0)
+2026-07-23 10:43:02,098 [sff_reader] INFO: SFFv2: found 9000,1 at entry#765: 112x157 fmt=10 doff=1957572 dlen=3343 pal=21 flags=0
+2026-07-23 10:43:02,111 [sff_reader] INFO: SFFv2: decoding fmt=10 size=112x157 raw=3343 bytes first8=b044000089504e47
+2026-07-23 10:43:02,112 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=b044000089504e47
+2026-07-23 10:43:02,114 [sff_reader] INFO: SFFv2 fmt10: decoded → (112, 157)
+2026-07-23 10:43:02,115 [sff_reader] INFO: SFFv2: portrait decoded → (112, 157) RGBA
+2026-07-23 10:43:02,620 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:43:02,621 [sff_reader] INFO: SFFv2: sprites=2364@2432 palettes=120@512 ldata@68624(4939668) tdata@5008292(0)
+2026-07-23 10:43:02,625 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1693: 94x128 fmt=2 doff=3665177 dlen=6643 pal=86 flags=0
+2026-07-23 10:43:02,670 [sff_reader] INFO: SFFv2: decoding fmt=2 size=94x128 raw=6643 bytes first8=002f000076004311
+2026-07-23 10:43:02,683 [sff_reader] INFO: SFFv2: portrait decoded → (94, 128) RGBA
+2026-07-23 10:43:02,684 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:02,687 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:43:02,688 [sff_reader] INFO: SFFv1: image_total=1617 first_offset=512
+2026-07-23 10:43:02,689 [sff_reader] INFO: SFFv2: sprites=5024@5408 palettes=306@512 ldata@146080(77072255) tdata@77218335(0)
+2026-07-23 10:43:02,692 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1506: 128x149 fmt=10 doff=3312197 dlen=5940 pal=50 flags=0
+2026-07-23 10:43:02,803 [sff_reader] INFO: SFFv2: decoding fmt=10 size=128x149 raw=5940 bytes first8=804a000089504e47
+2026-07-23 10:43:02,803 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=804a000089504e47
+2026-07-23 10:43:02,805 [sff_reader] INFO: SFFv2 fmt10: decoded → (128, 149)
+2026-07-23 10:43:02,805 [sff_reader] INFO: SFFv2: portrait decoded → (128, 149) RGBA
+2026-07-23 10:43:02,818 [sff_reader] INFO: SFFv1: found 9000,1 at offset=4939928 pcx_len=10156 pal_flag=0
+2026-07-23 10:43:02,851 [sff_reader] INFO: SFFv1: decoded portrait → (128, 149)
+2026-07-23 10:43:02,893 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:02,893 [sff_reader] INFO: SFFv1: image_total=1868 first_offset=512
+2026-07-23 10:43:02,894 [sff_reader] INFO: SFFv1: found 9000,1 at offset=28742 pcx_len=7697 pal_flag=0
+2026-07-23 10:43:02,895 [sff_reader] INFO: SFFv1: captured shared palette from sprite#9 (0,1)
+2026-07-23 10:43:02,907 [sff_reader] INFO: SFFv1: decoded portrait → (114, 127)
+2026-07-23 10:43:02,937 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:02,938 [sff_reader] INFO: SFFv1: image_total=2528 first_offset=512
+2026-07-23 10:43:02,955 [sff_reader] INFO: SFFv1: found 9000,1 at offset=8554708 pcx_len=6075 pal_flag=0
+2026-07-23 10:43:02,966 [sff_reader] INFO: SFFv1: decoded portrait → (107, 117)
+2026-07-23 10:43:03,419 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:03,419 [sff_reader] INFO: SFFv1: image_total=2010 first_offset=512
+2026-07-23 10:43:03,419 [sff_reader] INFO: SFFv1: found 9000,1 at offset=1673 pcx_len=5468 pal_flag=0
+2026-07-23 10:43:03,436 [sff_reader] INFO: SFFv1: captured shared palette from sprite#2009 (5950,3)
+2026-07-23 10:43:03,445 [sff_reader] INFO: SFFv1: decoded portrait → (94, 137)
+2026-07-23 10:43:25,349 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:43:25,349 [sff_reader] INFO: SFFv2: sprites=2364@2432 palettes=120@512 ldata@68624(4939668) tdata@5008292(0)
+2026-07-23 10:43:25,352 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1693: 94x128 fmt=2 doff=3665177 dlen=6643 pal=86 flags=0
+2026-07-23 10:43:25,409 [sff_reader] INFO: SFFv2: decoding fmt=2 size=94x128 raw=6643 bytes first8=002f000076004311
+2026-07-23 10:43:25,419 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:25,420 [sff_reader] INFO: SFFv1: image_total=2528 first_offset=512
+2026-07-23 10:43:25,443 [sff_reader] INFO: SFFv2: portrait decoded → (94, 128) RGBA
+2026-07-23 10:43:25,464 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#2527 offset=8554708 pcx_len=6075 pal_flag=0 index=0
+2026-07-23 10:43:25,465 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:25,465 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:25,506 [sff_reader] INFO: SFFv1: decoded portrait → (107, 117)
+2026-07-23 10:43:25,879 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:25,879 [sff_reader] INFO: SFFv1: image_total=1617 first_offset=512
+2026-07-23 10:43:25,888 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1414 offset=4939928 pcx_len=10156 pal_flag=0 index=0
+2026-07-23 10:43:25,890 [sff_reader] INFO: SFFv1: palette link → subfile#0 (0,0) pal_flag=0
+2026-07-23 10:43:25,890 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:25,950 [sff_reader] INFO: SFFv1: decoded portrait → (128, 149)
+2026-07-23 10:43:25,999 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:43:26,002 [sff_reader] INFO: SFFv2: sprites=5024@5408 palettes=306@512 ldata@146080(77072255) tdata@77218335(0)
+2026-07-23 10:43:26,039 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1506: 128x149 fmt=10 doff=3312197 dlen=5940 pal=50 flags=0
+2026-07-23 10:43:26,162 [sff_reader] INFO: SFFv2: decoding fmt=10 size=128x149 raw=5940 bytes first8=804a000089504e47
+2026-07-23 10:43:26,162 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=804a000089504e47
+2026-07-23 10:43:26,203 [sff_reader] INFO: SFFv2 fmt10: decoded → (128, 149)
+2026-07-23 10:43:26,204 [sff_reader] INFO: SFFv2: portrait decoded → (128, 149) RGBA
+2026-07-23 10:43:26,284 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:26,285 [sff_reader] INFO: SFFv1: image_total=3330 first_offset=512
+2026-07-23 10:43:26,285 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1705 pcx_len=6268 pal_flag=0 index=0
+2026-07-23 10:43:26,539 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:26,539 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:26,542 [sff_reader] INFO: SFFv1: fallback palette from subfile#462 (1100,2)
+2026-07-23 10:43:26,573 [sff_reader] INFO: SFFv1: decoded portrait → (200, 200)
+2026-07-23 10:43:27,904 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:27,904 [sff_reader] INFO: SFFv1: image_total=1781 first_offset=512
+2026-07-23 10:43:27,905 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#2 offset=1996 pcx_len=11843 pal_flag=0 index=0
+2026-07-23 10:43:28,057 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:28,057 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:28,061 [sff_reader] INFO: SFFv1: fallback palette from subfile#615 (5070,20)
+2026-07-23 10:43:28,084 [sff_reader] INFO: SFFv1: decoded portrait → (146, 205)
+2026-07-23 10:43:28,121 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:28,122 [sff_reader] INFO: SFFv1: image_total=2519 first_offset=512
+2026-07-23 10:43:28,122 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#4 offset=21479 pcx_len=28736 pal_flag=0 index=0
+2026-07-23 10:43:28,289 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,2) pal_flag=0
+2026-07-23 10:43:28,289 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:28,296 [sff_reader] INFO: SFFv1: fallback palette from subfile#1144 (7051,12)
+2026-07-23 10:43:28,342 [sff_reader] INFO: SFFv1: decoded portrait → (141, 461)
+2026-07-23 10:43:32,093 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:32,093 [sff_reader] INFO: SFFv1: image_total=1868 first_offset=512
+2026-07-23 10:43:32,094 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#5 offset=28742 pcx_len=7697 pal_flag=0 index=0
+2026-07-23 10:43:32,284 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:32,285 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:32,286 [sff_reader] INFO: SFFv1: fallback palette from subfile#9 (0,1)
+2026-07-23 10:43:32,295 [sff_reader] INFO: SFFv1: decoded portrait → (114, 127)
+2026-07-23 10:43:45,190 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:45,191 [sff_reader] INFO: SFFv1: image_total=2977 first_offset=512
+2026-07-23 10:43:45,192 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:45,193 [sff_reader] INFO: SFFv1: image_total=748 first_offset=512
+2026-07-23 10:43:45,194 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1888 pcx_len=18472 pal_flag=0 index=0
+2026-07-23 10:43:45,221 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:45,222 [sff_reader] INFO: SFFv1: image_total=2324 first_offset=512
+2026-07-23 10:43:45,230 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#688 offset=1451803 pcx_len=7872 pal_flag=0 index=0
+2026-07-23 10:43:45,245 [sff_reader] INFO: SFF not found at: C:\Users\Hp\Desktop\KOFM Selected Roster\chars\Clone_Adel\1.sff;C_Adel.sff
+2026-07-23 10:43:45,255 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:45,255 [sff_reader] INFO: SFFv1: image_total=1665 first_offset=512
+2026-07-23 10:43:45,256 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1922 pcx_len=7818 pal_flag=0 index=0
+2026-07-23 10:43:45,299 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:45,300 [sff_reader] INFO: SFFv1: image_total=3421 first_offset=512
+2026-07-23 10:43:45,300 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1661 pcx_len=4537 pal_flag=0 index=0
+2026-07-23 10:43:45,309 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:45,311 [sff_reader] INFO: SFFv1: palette extracted from subfile#0
+2026-07-23 10:43:45,377 [sff_reader] INFO: SFFv1: decoded portrait → (122, 466)
+2026-07-23 10:43:45,436 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#945 offset=3389960 pcx_len=11609 pal_flag=0 index=0
+2026-07-23 10:43:45,437 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#946 offset=3401633 pcx_len=10872 pal_flag=1 index=0
+2026-07-23 10:43:45,463 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:45,464 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:45,465 [sff_reader] INFO: SFFv1: fallback palette from subfile#3 (0,1)
+2026-07-23 10:43:45,480 [sff_reader] INFO: SFFv1: decoded portrait → (120, 140)
+2026-07-23 10:43:45,602 [sff_reader] INFO: SFFv1: palette link → subfile#0 (0,0) pal_flag=0
+2026-07-23 10:43:45,603 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:45,606 [sff_reader] INFO: SFFv1: using portrait's own palette
+2026-07-23 10:43:45,614 [sff_reader] INFO: PCX decode error: not enough image data
+2026-07-23 10:43:45,615 [sff_reader] INFO: SFFv1: PCX decode returned None
+2026-07-23 10:43:45,637 [sff_reader] INFO: SFFv1: fallback palette from subfile#1381 (7008,8)
+2026-07-23 10:43:45,679 [sff_reader] INFO: SFFv1: decoded portrait → (107, 250)
+2026-07-23 10:43:45,775 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:43:45,776 [sff_reader] INFO: SFFv2: sprites=1274@1136 palettes=39@512 ldata@36808(2981006) tdata@3017814(0)
+2026-07-23 10:43:45,777 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1: 95x116 fmt=2 doff=23630 dlen=6188 pal=38 flags=0
+2026-07-23 10:43:45,787 [sff_reader] INFO: SFFv2: decoding fmt=2 size=95x116 raw=6188 bytes first8=0c2b000000423e60
+2026-07-23 10:43:45,808 [sff_reader] INFO: SFFv2: portrait decoded → (95, 116) RGBA
+2026-07-23 10:43:45,871 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:43:45,871 [sff_reader] INFO: SFFv2: sprites=2003@1776 palettes=79@512 ldata@57860(4682770) tdata@4740630(0)
+2026-07-23 10:43:45,878 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1854: 118x123 fmt=10 doff=4299729 dlen=4649 pal=78 flags=0
+2026-07-23 10:43:45,922 [sff_reader] INFO: SFFv2: decoding fmt=10 size=118x123 raw=4649 bytes first8=b238000089504e47
+2026-07-23 10:43:45,923 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=b238000089504e47
+2026-07-23 10:43:45,927 [sff_reader] INFO: SFFv2 fmt10: decoded → (118, 123)
+2026-07-23 10:43:45,928 [sff_reader] INFO: SFFv2: portrait decoded → (118, 123) RGBA
+2026-07-23 10:43:46,167 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:46,168 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:46,169 [sff_reader] INFO: SFFv1: fallback palette from subfile#13 (0,9)
+2026-07-23 10:43:46,184 [sff_reader] INFO: SFFv1: decoded portrait → (75, 114)
+2026-07-23 10:43:46,704 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:46,705 [sff_reader] INFO: SFFv1: image_total=2147 first_offset=512
+2026-07-23 10:43:46,705 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#2 offset=1766 pcx_len=9180 pal_flag=0 index=0
+2026-07-23 10:43:47,010 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:47,010 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:47,013 [sff_reader] INFO: SFFv1: fallback palette from subfile#492 (170,2)
+2026-07-23 10:43:47,021 [sff_reader] INFO: SFFv1: decoded portrait → (102, 149)
+2026-07-23 10:43:47,048 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:43:47,048 [sff_reader] INFO: SFFv1: image_total=1947 first_offset=512
+2026-07-23 10:43:47,049 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#2 offset=1766 pcx_len=9180 pal_flag=0 index=0
+2026-07-23 10:43:47,278 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:43:47,278 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:43:47,283 [sff_reader] INFO: SFFv1: fallback palette from subfile#867 (7030,13)
+2026-07-23 10:43:47,297 [sff_reader] INFO: SFFv1: decoded portrait → (102, 149)
+2026-07-23 10:43:55,614 [sff_reader] INFO: SFF ver=(0, 1, 0, 2) → v2
+2026-07-23 10:43:55,614 [sff_reader] INFO: SFFv2: sprites=1321@1504 palettes=62@512 ldata@38492(9660242) tdata@9698734(0)
+2026-07-23 10:43:55,616 [sff_reader] INFO: SFFv2: found 9000,1 at entry#765: 112x157 fmt=10 doff=1957572 dlen=3343 pal=21 flags=0
+2026-07-23 10:43:55,637 [sff_reader] INFO: SFFv2: decoding fmt=10 size=112x157 raw=3343 bytes first8=b044000089504e47
+2026-07-23 10:43:55,637 [sff_reader] INFO: SFFv2 fmt10: PNG magic at offset=4 first8=b044000089504e47
+2026-07-23 10:43:55,638 [sff_reader] INFO: SFFv2 fmt10: decoded → (112, 157)
+2026-07-23 10:43:55,639 [sff_reader] INFO: SFFv2: portrait decoded → (112, 157) RGBA
+2026-07-23 10:44:06,083 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:44:06,083 [sff_reader] INFO: SFFv1: image_total=2828 first_offset=512
+2026-07-23 10:44:06,084 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1662 pcx_len=6610 pal_flag=0 index=0
+2026-07-23 10:44:06,365 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:44:06,366 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:44:06,367 [sff_reader] INFO: SFFv1: fallback palette from subfile#15 (44456,0)
+2026-07-23 10:44:06,375 [sff_reader] INFO: SFFv1: decoded portrait → (130, 128)
+2026-07-23 10:44:06,421 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:44:06,421 [sff_reader] INFO: SFFv1: image_total=2371 first_offset=512
+2026-07-23 10:44:06,422 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1688 pcx_len=2970 pal_flag=1 index=0
+2026-07-23 10:44:06,422 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#2 offset=4722 pcx_len=12006 pal_flag=0 index=0
+2026-07-23 10:44:06,633 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:44:06,634 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:44:06,636 [sff_reader] INFO: SFFv1: fallback palette from subfile#428 (690,7)
+2026-07-23 10:44:06,680 [sff_reader] INFO: SFFv1: decoded portrait → (122, 466)
+2026-07-23 10:44:07,036 [sff_reader] INFO: SFF ver=(0, 0, 0, 2) → v2
+2026-07-23 10:44:07,036 [sff_reader] INFO: SFFv2: sprites=2288@1584 palettes=67@512 ldata@65648(6959965) tdata@7025613(0)
+2026-07-23 10:44:07,039 [sff_reader] INFO: SFFv2: found 9000,1 at entry#1910: 125x131 fmt=2 doff=6477177 dlen=7181 pal=42 flags=0
+2026-07-23 10:44:07,053 [sff_reader] INFO: SFFv2: decoding fmt=2 size=125x131 raw=7181 bytes first8=f73f00007f004400
+2026-07-23 10:44:07,071 [sff_reader] INFO: SFFv2: portrait decoded → (125, 131) RGBA
+2026-07-23 10:44:07,713 [sff_reader] INFO: SFF ver=(0, 1, 0, 1) → v1
+2026-07-23 10:44:07,714 [sff_reader] INFO: SFFv1: image_total=3087 first_offset=512
+2026-07-23 10:44:07,714 [sff_reader] INFO: SFFv1: found 9000,1 at subfile#1 offset=1690 pcx_len=5831 pal_flag=0 index=0
+2026-07-23 10:44:07,847 [sff_reader] INFO: SFFv1: palette link → subfile#0 (9000,0) pal_flag=0
+2026-07-23 10:44:07,852 [sff_reader] INFO: SFFv1: palette link failed, searching for any pal_flag=1 sprite
+2026-07-23 10:44:07,857 [sff_reader] INFO: SFFv1: fallback palette from subfile#235 (205,27)
+2026-07-23 10:44:07,883 [sff_reader] INFO: SFFv1: decoded portrait → (117, 104)

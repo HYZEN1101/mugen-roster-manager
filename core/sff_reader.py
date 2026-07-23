@@ -192,26 +192,34 @@ def _pcx_to_image(pcx, shared_pal=None):
 
 def _read_sffv1(f):
     """
-    Walk SFF v1 linked-list subfile chain.
+    Walk SFF v1 linked-list subfile chain and decode portrait 9000,1.
 
-    PALETTE RULES (from MUGEN SFF v1 spec):
-      - pal_flag == 1: this sprite has its OWN palette embedded at the end
-                       of its PCX data. The FIRST pal_flag=1 sprite's palette
-                       becomes the SHARED palette for all pal_flag=0 sprites.
-      - pal_flag == 0: this sprite uses the shared palette (no own palette).
+    SFF v1 PALETTE SYSTEM (from spec):
+      Every subfile header has:
+        pal_flag  (1 byte): 1 = this PCX has its OWN palette appended
+                            0 = this PCX references another sprite's palette
+        index     (2 bytes): when pal_flag=0, this is the subfile NUMBER
+                             (0-based position in the chain) of the sprite
+                             whose palette to use.
 
-    CRITICAL: 9000,1 usually has pal_flag=0 and appears BEFORE any pal_flag=1
-    sprite in the chain. A single-pass read misses the shared palette.
-    We do TWO PASSES: first collect the shared palette, then decode 9000,1.
+    So to get the correct palette for sprite 9000,1:
+      1. Read its header to get index (the palette source sprite number)
+      2. Walk the chain to find sprite at that position
+      3. Extract the PCX palette from that sprite's data
+
+    The "first pal_flag=1 sprite" approach gives the WRONG palette because
+    different sprites in different groups use different palettes.
     """
     f.seek(16)
     group_total, image_total, next_subfile, hdr_len = struct.unpack('<IIII', f.read(16))
     logger.info(f"SFFv1: image_total={image_total} first_offset={next_subfile}")
 
     HDR = 32
-    # Pass 1: index all sprites, collect shared palette
-    shared_pal    = None
-    portrait_info = None   # (offset, pcx_len, pal_flag)
+
+    # Pass 1: build a map of subfile_number → (offset, pcx_len, pal_flag, index)
+    # We need this to follow palette links correctly.
+    subfiles = []   # list of (offset, pcx_len, groupno, imageno, index, pal_flag)
+    portrait_subfile_num = None
     offset = next_subfile
 
     for n in range(image_total):
@@ -227,41 +235,63 @@ def _read_sffv1(f):
          pal_flag) = struct.unpack(_SFF1_HDR, hdr)
 
         pcx_len = length - HDR
+        subfiles.append((offset, pcx_len, groupno, imageno, index, pal_flag))
 
         if groupno == 9000 and imageno == 1:
-            portrait_info = (offset, pcx_len, pal_flag)
-            logger.info(f"SFFv1: found 9000,1 at offset={offset} "
-                        f"pcx_len={pcx_len} pal_flag={pal_flag}")
-
-        if shared_pal is None and pal_flag == 1 and pcx_len > 0:
-            f.seek(offset + HDR)
-            pcx = f.read(pcx_len)
-            shared_pal = _pcx_palette(pcx)
-            if shared_pal:
-                logger.info(f"SFFv1: captured shared palette from "
-                            f"sprite#{n} ({groupno},{imageno})")
-
-        # Stop early once we have both
-        if portrait_info and shared_pal:
-            break
+            portrait_subfile_num = n
+            logger.info(f"SFFv1: found 9000,1 at subfile#{n} offset={offset} "
+                        f"pcx_len={pcx_len} pal_flag={pal_flag} index={index}")
 
         offset = next_off
 
-    if portrait_info is None:
+    if portrait_subfile_num is None:
         logger.info("SFFv1: 9000,1 not found")
         return {}
 
-    # Pass 2: decode the portrait
-    port_offset, pcx_len, pal_flag = portrait_info
+    port_offset, pcx_len, _, _, port_index, port_pal_flag = subfiles[portrait_subfile_num]
+
     if pcx_len <= 0:
+        logger.info("SFFv1: portrait pcx_len <= 0")
         return {}
 
+    # Determine which palette to use
+    palette = None
+
+    if port_pal_flag == 1:
+        # Portrait has its own palette — use it directly
+        f.seek(port_offset + HDR)
+        pcx = f.read(pcx_len)
+        palette = _pcx_palette(pcx)
+        logger.info(f"SFFv1: using portrait's own palette")
+    else:
+        # Follow the index link to the palette source sprite
+        pal_source_num = port_index
+        if 0 <= pal_source_num < len(subfiles):
+            pal_offset, pal_pcx_len, pg, pi, _, pal_flag2 = subfiles[pal_source_num]
+            logger.info(f"SFFv1: palette link → subfile#{pal_source_num} "
+                        f"({pg},{pi}) pal_flag={pal_flag2}")
+            if pal_pcx_len > 0:
+                f.seek(pal_offset + HDR)
+                pal_pcx = f.read(pal_pcx_len)
+                palette = _pcx_palette(pal_pcx)
+                if palette:
+                    logger.info(f"SFFv1: palette extracted from subfile#{pal_source_num}")
+
+        if palette is None:
+            # Fallback: find any pal_flag=1 sprite
+            logger.info("SFFv1: palette link failed, searching for any pal_flag=1 sprite")
+            for i, (soff, spcx_len, sg, si, sidx, spal) in enumerate(subfiles):
+                if spal == 1 and spcx_len > 0:
+                    f.seek(soff + HDR)
+                    pal_pcx = f.read(spcx_len)
+                    palette = _pcx_palette(pal_pcx)
+                    if palette:
+                        logger.info(f"SFFv1: fallback palette from subfile#{i} ({sg},{si})")
+                        break
+
+    # Read portrait PCX (re-read since we may have seeked elsewhere)
     f.seek(port_offset + HDR)
     pcx = f.read(pcx_len)
-
-    # Own palette (pal_flag=1) takes priority over shared
-    own_pal = _pcx_palette(pcx) if pal_flag == 1 else None
-    palette  = own_pal or shared_pal
 
     img = _pcx_to_image(pcx, palette)
     if img:
