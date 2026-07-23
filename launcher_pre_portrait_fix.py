@@ -384,158 +384,127 @@ class RosterManagerApp(tk.Tk):
     # ── Portrait loading ──────────────────────────────────────────────────────
 
     def _on_char_hover(self, event=None):
+        """Called on mouse motion over char_listbox — show portrait for item under cursor."""
         idx = self.char_listbox.nearest(event.y)
         if idx < 0 or idx >= len(self._displayed_chars):
             return
         char = self._displayed_chars[idx]
         if char.get('def_path') == self._current_hover_char:
-            return
+            return  # same char, no update needed
         self._current_hover_char = char.get('def_path')
         self._show_char_info(char)
 
     def _on_char_leave(self, event=None):
+        """Mouse left the listbox — clear portrait."""
         self._current_hover_char = None
 
-    def _on_char_listbox_select(self, event=None):
-        sel = self.char_listbox.curselection()
-        if not sel:
-            return
-        idx = sel[-1]
-        if idx < len(self._displayed_chars):
-            char = self._displayed_chars[idx]
-            if char.get('def_path') != self._current_hover_char:
-                self._current_hover_char = char.get('def_path')
-                self._show_char_info(char)
-
     def _show_char_info(self, char):
+        """Update the portrait canvas and name/author labels for a character."""
+        # Update text immediately
         display = char.get('displayname') or char.get('name') or char.get('folder', '')
-        author  = char.get('author', '')
+        author = char.get('author', '')
         self._info_name.config(text=display)
         self._info_author.config(text=f"by {author}" if author else "")
-
-        if not _PIL_AVAILABLE:
-            print("[portrait] PIL not available — run: pip install pillow")
-            return
 
         def_path = char.get('def_path', '')
         abs_path = char.get('abs_path', '')
 
-        # Cache hit — PIL Image stored, not PhotoImage
+        # No PIL = no portrait support
+        if not _PIL_AVAILABLE:
+            return
+
+        # Check cache
         cached = self._portrait_cache.get(def_path)
         if cached is not None:
             if cached == 'NONE':
                 self._draw_no_portrait()
             else:
-                self._apply_portrait(cached, def_path)
+                self._draw_portrait(cached)
             return
 
+        # Show loading state
         self._draw_loading()
 
-        def _load():
-            """Background thread: file I/O + pixel decode only. Returns PIL Image."""
+        # Load in background thread
+        def load_portrait():
             try:
-                print(f"[portrait] loading: {abs_path}")
-                from core.sff_reader import find_sff_path, get_portrait
-                sff = find_sff_path(abs_path)
-                if not sff:
-                    print(f"[portrait] SFF not found for: {abs_path}")
-                    return None
-                print(f"[portrait] SFF: {sff}")
-                img = get_portrait(sff)
-                if img is None:
-                    print("[portrait] get_portrait() returned None")
-                else:
-                    print(f"[portrait] decoded: {img.size} {img.mode}")
-                return img
+                sff_path = find_sff_path(abs_path)
+                if not sff_path:
+                    self._portrait_cache[def_path] = 'NONE'
+                    self.after(0, self._draw_no_portrait)
+                    return
+                pil_img = get_portrait(sff_path)
+                if pil_img is None:
+                    self._portrait_cache[def_path] = 'NONE'
+                    self.after(0, self._draw_no_portrait)
+                    return
+                # Scale to fit 120x140, anchored bottom
+                photo = self._scale_portrait(pil_img)
+                self._portrait_cache[def_path] = photo
+                # Only draw if still the same char
+                if self._current_hover_char == def_path:
+                    self.after(0, lambda p=photo: self._draw_portrait(p))
             except Exception as e:
-                import traceback
-                print(f"[portrait] load error: {e}")
-                traceback.print_exc()
-                return None
-
-        def _done(pil_img):
-            """Main thread callback: cache result and draw."""
-            if pil_img is None:
+                logger.debug(f"Portrait load error: {e}")
                 self._portrait_cache[def_path] = 'NONE'
-                if self._current_hover_char == def_path:
-                    self._draw_no_portrait()
-            else:
-                # Store PIL Image (NOT PhotoImage — PhotoImage is not thread-safe)
-                self._portrait_cache[def_path] = pil_img
-                if self._current_hover_char == def_path:
-                    self._apply_portrait(pil_img, def_path)
+                self.after(0, self._draw_no_portrait)
 
-        import threading
-        def _worker():
-            pil_img = _load()
-            self.after(0, lambda: _done(pil_img))   # post back to main thread
-        threading.Thread(target=_worker, daemon=True).start()
+        t = threading.Thread(target=load_portrait, daemon=True)
+        t.start()
 
-    def _apply_portrait(self, pil_img, def_path):
+    def _scale_portrait(self, pil_img):
         """
-        Scale PIL Image, convert to PhotoImage, draw on canvas.
-        MUST run on the main tkinter thread.
+        Scale PIL image to fit within 120x140, anchored to bottom.
+        Returns a tk.PhotoImage.
         """
-        try:
-            from PIL import Image, ImageTk
-            W = self._portrait_canvas_W
-            H = self._portrait_canvas_H
-            iw, ih = pil_img.size
-            if iw == 0 or ih == 0:
-                self._draw_no_portrait()
-                return
+        from PIL import Image, ImageTk
+        W, H = self._portrait_canvas_W, self._portrait_canvas_H
+        iw, ih = pil_img.size
+        if iw == 0 or ih == 0:
+            return None
 
-            # Scale to fit box, preserve aspect ratio
-            scale   = min(W / iw, H / ih)
-            new_w   = max(1, int(iw * scale))
-            new_h   = max(1, int(ih * scale))
-            resized = pil_img.resize((new_w, new_h), Image.LANCZOS)
+        # Scale to fit within box, preserving aspect ratio
+        scale = min(W / iw, H / ih)
+        new_w = max(1, int(iw * scale))
+        new_h = max(1, int(ih * scale))
+        resized = pil_img.resize((new_w, new_h), Image.LANCZOS)
 
-            # Paste onto WxH canvas, bottom-anchored
-            canvas_img = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-            paste_x = (W - new_w) // 2
-            paste_y = H - new_h
-            mask = resized if resized.mode == 'RGBA' else None
-            canvas_img.paste(resized, (paste_x, paste_y), mask)
+        # Compose onto transparent canvas (WxH), bottom-aligned
+        canvas_img = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        paste_x = (W - new_w) // 2           # center horizontally
+        paste_y = H - new_h                  # anchor to bottom
+        canvas_img.paste(resized, (paste_x, paste_y), resized if resized.mode == 'RGBA' else None)
 
-            # PhotoImage created HERE on main thread — this is the critical fix
-            photo = ImageTk.PhotoImage(canvas_img)
-
-            c = self._portrait_canvas
-            c.delete('all')
-            self._portrait_photo = photo   # must keep reference or GC kills it
-            c.create_image(0, 0, image=photo, anchor='nw')
-            print(f"[portrait] drawn OK")
-
-        except Exception as e:
-            import traceback
-            print(f"[portrait] draw error: {e}")
-            traceback.print_exc()
-            self._draw_no_portrait()
+        return ImageTk.PhotoImage(canvas_img)
 
     def _draw_portrait(self, photo):
-        """Legacy stub — kept for compatibility."""
+        """Render a portrait PhotoImage onto the canvas."""
         c = self._portrait_canvas
         c.delete('all')
-        if photo:
-            self._portrait_photo = photo
-            c.create_image(0, 0, image=photo, anchor='nw')
-        else:
+        if photo is None:
             self._draw_no_portrait()
+            return
+        self._portrait_photo = photo  # keep GC reference
+        W, H = self._portrait_canvas_W, self._portrait_canvas_H
+        c.create_image(0, 0, image=photo, anchor='nw', tags='portrait')
 
     def _draw_no_portrait(self):
+        """Show the 'no portrait' placeholder."""
         c = self._portrait_canvas
         c.delete('all')
         W, H = self._portrait_canvas_W, self._portrait_canvas_H
         c.create_text(W // 2, H // 2, text="no portrait",
-                      fill=THEME['fg_dim'], font=('Segoe UI', 8))
+                      fill=THEME['fg_dim'], font=('Segoe UI', 8),
+                      tags='placeholder')
 
     def _draw_loading(self):
+        """Show loading indicator."""
         c = self._portrait_canvas
         c.delete('all')
         W, H = self._portrait_canvas_W, self._portrait_canvas_H
         c.create_text(W // 2, H // 2, text="...",
-                      fill=THEME['fg_dim'], font=('Segoe UI', 14))
+                      fill=THEME['fg_dim'], font=('Segoe UI', 14),
+                      tags='loading')
 
     def _build_char_panel(self, parent):
         frame = tk.Frame(parent, bg=THEME['bg'])

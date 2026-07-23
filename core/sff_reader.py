@@ -194,37 +194,32 @@ def _read_sffv1(f):
     """
     Walk SFF v1 linked-list subfile chain.
 
-    The shared palette problem:
-      pal_flag == 1  → this sprite has its OWN palette embedded in its PCX data.
-                       The FIRST such sprite's palette becomes the shared palette.
-      pal_flag == 0  → this sprite references the shared palette (has no own palette).
+    PALETTE RULES (from MUGEN SFF v1 spec):
+      - pal_flag == 1: this sprite has its OWN palette embedded at the end
+                       of its PCX data. The FIRST pal_flag=1 sprite's palette
+                       becomes the SHARED palette for all pal_flag=0 sprites.
+      - pal_flag == 0: this sprite uses the shared palette (no own palette).
 
-    In many MUGEN characters the portrait (9000,1) has pal_flag=0, meaning it
-    appears BEFORE the first pal_flag=1 sprite in the chain, so a single-pass
-    approach never collects the palette in time.
-
-    Fix: TWO-PASS approach.
-      Pass 1 — walk the entire chain, record every sprite's offset/length/flags,
-               and collect the shared palette from the first pal_flag=1 sprite.
-      Pass 2 — use the collected palette to decode 9000,1.
+    CRITICAL: 9000,1 usually has pal_flag=0 and appears BEFORE any pal_flag=1
+    sprite in the chain. A single-pass read misses the shared palette.
+    We do TWO PASSES: first collect the shared palette, then decode 9000,1.
     """
     f.seek(16)
     group_total, image_total, next_subfile, hdr_len = struct.unpack('<IIII', f.read(16))
     logger.info(f"SFFv1: image_total={image_total} first_offset={next_subfile}")
 
     HDR = 32
-    shared_pal = None
-    portrait_entry = None   # (offset, pcx_len, pal_flag)
-
-    # ── Pass 1: index the chain ───────────────────────────────────────────────
+    # Pass 1: index all sprites, collect shared palette
+    shared_pal    = None
+    portrait_info = None   # (offset, pcx_len, pal_flag)
     offset = next_subfile
+
     for n in range(image_total):
         if offset == 0:
             break
         f.seek(offset)
         hdr = f.read(HDR)
         if len(hdr) < HDR:
-            logger.info(f"SFFv1 pass1: short read at offset {offset}")
             break
 
         (next_off, length, axisx, axisy,
@@ -234,50 +229,45 @@ def _read_sffv1(f):
         pcx_len = length - HDR
 
         if groupno == 9000 and imageno == 1:
-            portrait_entry = (offset, pcx_len, pal_flag)
-            logger.info(f"SFFv1 pass1: found 9000,1 at offset={offset} "
+            portrait_info = (offset, pcx_len, pal_flag)
+            logger.info(f"SFFv1: found 9000,1 at offset={offset} "
                         f"pcx_len={pcx_len} pal_flag={pal_flag}")
 
-        # Collect shared palette from first pal_flag==1 sprite
         if shared_pal is None and pal_flag == 1 and pcx_len > 0:
             f.seek(offset + HDR)
             pcx = f.read(pcx_len)
             shared_pal = _pcx_palette(pcx)
             if shared_pal:
-                logger.info(f"SFFv1 pass1: captured shared palette from "
+                logger.info(f"SFFv1: captured shared palette from "
                             f"sprite#{n} ({groupno},{imageno})")
 
-        # Early exit once we have both
-        if portrait_entry and shared_pal:
+        # Stop early once we have both
+        if portrait_info and shared_pal:
             break
 
         offset = next_off
 
-    if portrait_entry is None:
-        logger.info("SFFv1: 9000,1 not found in chain")
+    if portrait_info is None:
+        logger.info("SFFv1: 9000,1 not found")
         return {}
 
-    if shared_pal is None:
-        logger.info("SFFv1: no shared palette found — will try portrait's own PCX palette")
-
-    # ── Pass 2: decode the portrait ───────────────────────────────────────────
-    port_offset, pcx_len, pal_flag = portrait_entry
+    # Pass 2: decode the portrait
+    port_offset, pcx_len, pal_flag = portrait_info
     if pcx_len <= 0:
-        logger.info("SFFv1: portrait pcx_len <= 0")
         return {}
 
     f.seek(port_offset + HDR)
     pcx = f.read(pcx_len)
 
-    # If portrait has its own palette (pal_flag==1), prefer it over shared
+    # Own palette (pal_flag=1) takes priority over shared
     own_pal = _pcx_palette(pcx) if pal_flag == 1 else None
-    palette  = own_pal or shared_pal   # own > shared > None (fallback in _pcx_to_image)
+    palette  = own_pal or shared_pal
 
     img = _pcx_to_image(pcx, palette)
     if img:
-        logger.info(f"SFFv1: portrait decoded → {img.size}")
+        logger.info(f"SFFv1: decoded portrait → {img.size}")
     else:
-        logger.info("SFFv1: _pcx_to_image returned None")
+        logger.info("SFFv1: PCX decode returned None")
     return {(9000, 1): img} if img else {}
 
 
@@ -388,21 +378,23 @@ def _decode_sffv2_sprite(f, s, pals):
                     f"raw={len(raw)} bytes first8={raw[:8].hex()}")
 
         # ── Format 10: embedded PNG ───────────────────────────────────────
-        # The raw data starts with a 4-byte little-endian uncompressed size,
-        # followed immediately by the PNG file bytes (starting with \x89PNG).
-        # Diagnostic confirmed: first 8 bytes = 8052000089504e47
-        #   → uint32 LE 0x00005280 = uncompressed size prefix
-        #   → bytes 4-7 = 89 50 4e 47 = PNG magic
+        # The raw data has a variable-length prefix before the PNG magic bytes.
+        # Observed prefixes: 4 bytes (uint32 uncompressed size).
+        # We scan the first 16 bytes for the PNG magic \x89PNG and skip to it.
         if fmt == 10:
+            PNG_MAGIC = b'\x89PNG\r\n\x1a\n'
+            png_offset = 0
+            # Search for PNG magic in first 16 bytes
+            for search_off in range(min(16, len(raw) - 4)):
+                if raw[search_off:search_off+4] == b'\x89PNG':
+                    png_offset = search_off
+                    break
             try:
-                # Skip the 4-byte size prefix if present
-                png_data = raw[4:] if raw[4:8] == b'\x89PNG' else raw
-                if raw[:4] == b'\x89PNG':   # no prefix at all
-                    png_data = raw
-                logger.info(f"SFFv2 fmt10: first8={raw[:8].hex()} "
-                            f"using offset={'4' if png_data is not raw else '0'}")
+                png_data = raw[png_offset:]
+                logger.info(f"SFFv2 fmt10: PNG magic at offset={png_offset} "
+                            f"first8={raw[:8].hex()}")
                 img = Image.open(BytesIO(png_data)).convert('RGBA')
-                logger.info(f"SFFv2 fmt10: PNG decoded → {img.size}")
+                logger.info(f"SFFv2 fmt10: decoded → {img.size}")
                 return img
             except Exception as e:
                 logger.info(f"SFFv2 fmt10 PNG error: {e} — first16={raw[:16].hex()}")
